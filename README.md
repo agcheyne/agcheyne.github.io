@@ -24,7 +24,7 @@ No installation needed. Simply visit the site.
 
 - Visual representation of the detector's channel layout.
 - Tools are available for:
-- - Finding a pixel channel, and laser position (via click)
+  - Finding a pixel channel, and laser position (via click)
   - Look up for laser x,y position. Returns channel, and readout board.
   - Look up a channel position (all or in specific octants)
   - Adding a mask for laser scans, showing defined region of interest.
