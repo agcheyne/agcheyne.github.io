@@ -1,6 +1,6 @@
 # Detector UI
 
-This project is a graphical user interface (GUI) for visualizing the channel layout of a detector face. It is designed to run on Linux and provides a simple and intuitive way to display the detector's channel configuration.
+This project is a graphical user interface (GUI) for visualizing the channel layout of a detector face. It is designed to run via github pages in order to be transportable, simple, and intuitive way to access detector's channel information and debugging tools.
 
 UI links:
 [Photek Map](https://agcheyne.github.io/detector-ui/)
