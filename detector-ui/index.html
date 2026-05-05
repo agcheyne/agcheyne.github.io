@@ -85,9 +85,9 @@
         <div class="controls-container">
             <div class="control-group">
                 <h3>Find by Laser Position</h3>
-                <label>Laser X (mm):<input type="number" id="laserInputX" step="0.1" value="0"></label>
-                <label>Laser Y (mm):<input type="number" id="laserInputY" step="0.1" value="0"></label>
-                <button id="findBtn">Find Pixel</button>
+                <p><label>Laser X (mm):<input type="number" id="laserInputX" step="0.1" value="0"></label></p>
+                <p><label>Laser Y (mm):<input type="number" id="laserInputY" step="0.1" value="0"></label></p>
+                <p><button id="findBtn">Find Pixel</button></p>
                 <div id="resultBox" style="display:none; background-color: #e8f5e9; border: 1px solid #4CAF50; padding: 8px; margin-top: 10px; font-size: 12px;">
                     <p><strong>Readout:</strong> <span id="resultReadout"></span></p>
                     <p><strong>Channel:</strong> <span id="resultChannel"></span></p>
@@ -100,7 +100,7 @@
         <div class="controls-container">
             <div class="control-group">
                 <h3>Highlight Channel</h3>
-                <label>Readout Block:<select id="readoutSelect">
+                <p><label>Readout Block:<select id="readoutSelect"></p>
                     <option value="">All Octants</option>
                     <option value="0">Octant 0</option>
                     <option value="1">Octant 1</option>
@@ -111,19 +111,19 @@
                     <option value="6">Octant 6</option>
                     <option value="7">Octant 7</option>
                 </select></label>
-                <label>Channel Number:<input type="number" id="channelInput" min="0" max="31" step="1" value="0"></label>
-                <button id="highlightBtn">Highlight</button>
+                <p><label>Channel Number:<input type="number" id="channelInput" min="0" max="31" step="1" value="0"></label></p>
+                <p><button id="highlightBtn">Highlight</button></p>
             </div>
         </div>
 
         <div class="controls-container">
             <div class="control-group">
                 <h3>Scan Region</h3>
-                <label>X Min (mm):<input type="number" id="scanXMin" step="1.0" value="0"></label>
-                <label>X Dist (mm):<input type="number" id="scanXDist" step="1.0" value="30"></label>
-                <label>Y Min (mm):<input type="number" id="scanYMin" step="1.0" value="0"></label>
-                <label>Y Dist (mm):<input type="number" id="scanYDist" step="1.0" value="15"></label>
-                <button id="setScanBtn">Set Scan Region</button>
+                <p><label>X Min (mm):<input type="number" id="scanXMin" step="1.0" value="0"></label></p>
+                <p><label>X Dist (mm):<input type="number" id="scanXDist" step="1.0" value="30"></label></p>
+                <p><label>Y Min (mm):<input type="number" id="scanYMin" step="1.0" value="0"></label></p>
+                <p><label>Y Dist (mm):<input type="number" id="scanYDist" step="1.0" value="15"></label></p>
+                <p><button id="setScanBtn">Set Scan Region</button>
             </div>
         </div>
 
