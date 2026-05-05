@@ -43,8 +43,8 @@
             box-sizing: border-box;
         }
 
-                /* Mobile responsiveness */
-        @media (max-width: 368px) {
+        
+        @media (max-width: 768px) {
             body {
                 flex-direction: column;
                 gap: 10px;
@@ -52,10 +52,16 @@
             }
             .canvas-container {
                 flex: 1;
+                order: 1;
             }
             .controls-container {
                 flex: 1;
                 width: 100%;
+                order: 2;
+            }
+            canvas {
+                width: 100%;
+                height: auto;
             }
         }
     </style>
@@ -199,6 +205,7 @@ async function loadData() {
         console.error('Error loading detector data:', error);
     }
 }
+        
         
         
         async function updateOffset() {
