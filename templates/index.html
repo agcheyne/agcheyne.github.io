@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detector Channel Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .canvas-container {
+            flex: 2;
+        }
+        .controls-container {
+            flex: 0.3;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            height: fit-content;
+        }
+        canvas {
+            border: 2px solid #333;
+            background-color: white;
+            display: block;
+        }
+        .control-group {
+            margin-bottom: 10px;
+        }
+        .control-group h3 {
+            margin: 0 0 10px 0;
+        }
+        label {
+            display: block;
+            margin: 8px 0 4px 0;
+            font-weight: bold;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <body>
+<div class="canvas-container">
+    <h2>Photek MAPMT Channel map (detector face)</h2>
+    
+    <div style="margin-top: 10px; background: white; padding: 5px; border-radius: 8px; box-shadow: 0 2px 2px rgba(0,0,0,0.1); width: fit-content;">
+        <div style="display: flex; gap: 6px;">
+            <div style="flex: 1;">
+                <label style="display: block; margin: 4px 0 2px 0; font-weight: bold;">X Offset (mm):
+                    <input type="number" id="offsetX" step="0.1" value="0" style="width: 30%; padding: 2px; box-sizing: border-box;">
+                </label>
+            </div>
+            <div style="flex: 1;">
+                <label style="display: block; margin: 4px 0 2px 0; font-weight: bold;">Y Offset (mm):
+                    <input type="number" id="offsetY" step="0.1" value="0" style="width: 30%; padding: 2px; box-sizing: border-box;">
+                </label>
+            </div>
+        </div>
+        <p style="margin: 8px 0 0 0; font-size: 12px; color: #666;"><em>Offset is from centre of pixel (0,0)</em></p>
+    </div>
+    <canvas id="canvas" width="550" height="550"></canvas>
+
+</div>
+        
+        <div class="controls-container">
+            <div class="control-group" id="infoBox">
+                <h3>Pixel Info (Click)</h3>
+                <p><strong>Readout Block:</strong><br><span id="infoReadout">-</span></p>
+                <p><strong>Channel:</strong><br><span id="infoChannel">-</span></p>
+                <p><strong>Pixel (X, Y):</strong><br><span id="infoX">-</span>, <span id="infoY">-</span></p>
+                <p><strong>Laser (X, Y) mm:</strong><br><span id="infoLaserX">-</span>, <span id="infoLaserY">-</span></p>
+            </div>
+        </div>
+        
+        <div class="controls-container">
+            <div class="control-group">
+                <h3>Find by Laser Position</h3>
+                <label>Laser X (mm):
+                    <input type="number" id="laserInputX" step="0.1" value="0">
+                </label>
+                <label>Laser Y (mm):
+                    <input type="number" id="laserInputY" step="0.1" value="0">
+                </label>
+                <button id="findBtn" style="width: 100%; padding: 10px; margin-top: 10px; background-color: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer;">Find Pixel</button>
+            </div>
+            
+            <div class="control-group" id="resultBox" style="display:none; background-color: #e8f5e9; border: 1px solid #4CAF50; padding: 10px; margin-top: 10px;">
+                <h3>Result</h3>
+                <p><strong>Readout Block:</strong> <span id="resultReadout"></span></p>
+                <p><strong>Channel:</strong> <span id="resultChannel"></span></p>
+                <p><strong>Pixel X, Y:</strong> <span id="resultX"></span>, <span id="resultY"></span></p>
+                <p><strong>Distance:</strong> <span id="resultDistance"></span> mm</p>
+            </div>
+        </div>
+        <div class="controls-container">
+            <div class="control-group">
+                <h3>Highlight Channel</h3>
+                <label>Readout Block:
+                    <select id="readoutSelect" style="width: 100%; padding: 8px; box-sizing: border-box;">
+                        <option value="">All Octants</option>
+                        <option value="0">Octant 0</option>
+                        <option value="1">Octant 1</option>
+                        <option value="2">Octant 2</option>
+                        <option value="3">Octant 3</option>
+                        <option value="4">Octant 4</option>
+                        <option value="5">Octant 5</option>
+                        <option value="6">Octant 6</option>
+                        <option value="7">Octant 7</option>
+                    </select>
+                </label>
+                <label>Channel Number:
+                    <input type="number" id="channelInput" min="0" max="31" step="1" value="0" style="width: 100%; padding: 8px; box-sizing: border-box;">
+                </label>
+                <button id="highlightBtn" style="width: 100%; padding: 10px; margin-top: 10px; background-color: #2196F3; color: white; border: none; border-radius: 4px; cursor: pointer;">Highlight</button>
+            </div>
+        </div>
+<div class="controls-container">
+    <div class="control-group">
+        <h3>Scan Region</h3>
+        <div style="display: flex; gap: 10px;">
+            <div style="flex: 1;">
+                <label>X Min (mm):
+                    <input type="number" id="scanXMin" step="0.1" value="0">
+                </label>
+            </div>
+            <div style="flex: 1;">
+                <label>X Dist (mm):
+                    <input type="number" id="scanXDist" step="0.1" value="50">
+                </label>
+            </div>
+        </div>
+        <div style="display: flex; gap: 10px;">
+            <div style="flex: 1;">
+                <label>Y Min (mm):
+                    <input type="number" id="scanYMin" step="0.1" value="0">
+                </label>
+            </div>
+            <div style="flex: 1;">
+                <label>Y Dist (mm):
+                    <input type="number" id="scanYDist" step="0.1" value="50">
+                </label>
+            </div>
+        </div>
+        <button id="setScanBtn" style="width: 100%; padding: 10px; margin-top: 10px; background-color: #FF9800; color: white; border: none; border-radius: 4px; cursor: pointer;">Set Scan Region</button>
+    </div>
+</div>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        const offsetXInput = document.getElementById('offsetX');
+        const offsetYInput = document.getElementById('offsetY');
+        const infoBox = document.getElementById('infoBox');
+
+        
+        let channels = {};
+        let detectorOffset = {x: 0, y: 0};
+        let detectorSpecs = {};
+        
+        async function loadData() {
+            try {
+                const response = await fetch('./static/detector-data.json');
+                const data = await response.json();
+                channels = data.channels;
+                detectorSpecs = data.specs;
+                drawCanvas();
+            } catch (error) {
+                console.error('Error loading detector data:', error);
+            }
+        }
+        
+        async function updateOffset() {
+            detectorOffset.x = parseFloat(offsetXInput.value);
+            detectorOffset.y = parseFloat(offsetYInput.value);
+            
+            await fetch('/api/offset', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(detectorOffset)
+            });
+            
+            drawCanvas();
+        }
+
+        function drawCanvas() {
+            const pixelSize = 28;
+            const gap = 2;
+            const padding = 45;
+            const pixel_mm_real = 3.312; // mm per pixel in real space (used for laser position calculation)
+
+            ctx.fillStyle = 'white';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            
+            // Define colors for each readout block (octant)
+            const readoutColors = {
+                0: '#FF6B6B',  // Red
+                1: '#4ECDC4',  // Teal
+                2: '#45B7D1',  // Blue
+                3: '#FFA07A',  // Light Salmon
+                4: '#98D8C8',  // Mint
+                5: '#F7DC6F',  // Yellow
+                6: '#BB8FCE',  // Purple
+                7: '#85C1E2',  // Light Blue
+            };
+            
+            // Draw all pixels
+            for (const [name, data] of Object.entries(channels)) {
+                const x = padding + data.x * (pixelSize + gap) - pixelSize/2;
+                const y = padding + data.y * (pixelSize + gap) - pixelSize/2;
+                
+                ctx.fillStyle = readoutColors[data.readout] || '#6496ff';
+                ctx.fillRect(x, y, pixelSize, pixelSize);
+                ctx.strokeStyle = '#000';
+                ctx.lineWidth = 1;
+                ctx.strokeRect(x, y, pixelSize, pixelSize);
+
+                // draw channel number on pixel
+                ctx.fillStyle = '#000';
+                ctx.font = '8px Arial';
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText(`${data.channel}`, x + pixelSize/2, y + pixelSize/2);
+            }
+            
+
+
+            // Draw selected pixel with bold outline and channel number
+            if (selectedPixel) {
+                const x = padding + selectedPixel.x * (pixelSize + gap) - pixelSize/2;
+                const y = padding + selectedPixel.y * (pixelSize + gap) - pixelSize/2;
+                ctx.strokeStyle = '#000';
+                ctx.lineWidth = 3;
+                ctx.strokeRect(x, y, pixelSize, pixelSize);
+                
+                // Draw channel text on selected pixel
+                ctx.fillStyle = '#000';
+                ctx.font = 'bold 10px Arial';
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText(`${selectedPixel.channel}`, x + pixelSize/2, y + pixelSize/2);
+            }
+
+            // Draw highlighted pixels with different color
+            if (highlightedPixels.length > 0) {
+                for (const pixel of highlightedPixels) {
+                    const x = padding + pixel.x * (pixelSize + gap) - pixelSize/2;
+                    const y = padding + pixel.y * (pixelSize + gap) - pixelSize/2;
+                    ctx.fillStyle = '#FFD700';
+                    ctx.fillRect(x, y, pixelSize, pixelSize);
+                    ctx.strokeStyle = '#FF8C00';
+                    ctx.lineWidth = 2;
+                    ctx.strokeRect(x, y, pixelSize, pixelSize);
+                    // draw channel number on highlighted pixel
+                    ctx.fillStyle = '#000';
+                    ctx.font = 'bold 10px Arial';
+                    ctx.textAlign = 'center';
+                    ctx.textBaseline = 'middle';
+                    ctx.fillText(`${pixel.channel}`, x + pixelSize/2, y + pixelSize/2);
+
+                }
+            }
+
+            // Draw scan region
+            if (scanRegion) {
+                const padding = 45; // Increased padding
+                
+                // Convert mm to pixel coordinates
+                const x1 = padding + (scanRegion.xMin / detectorSpecs.pixel_pitch_mm) * (pixelSize + gap);
+                const y1 = padding + (scanRegion.yMin / detectorSpecs.pixel_pitch_mm) * (pixelSize + gap);
+                const x2 = padding + (scanRegion.xMax / detectorSpecs.pixel_pitch_mm) * (pixelSize + gap);
+                const y2 = padding + (scanRegion.yMax / detectorSpecs.pixel_pitch_mm) * (pixelSize + gap);
+
+
+                ctx.strokeStyle = '#FF1493';
+                ctx.lineWidth = 6;
+                ctx.strokeRect(x1, y1, x2 - x1, y2 - y1);
+                ctx.setLineDash([]);
+                
+                // Draw label
+                ctx.fillStyle = '#FF1493';
+                ctx.font = 'bold 12px Arial';
+                ctx.fillText('SCAN', x1 - 5, y1 - 10);
+            }
+
+            // Draw axes labels
+            ctx.fillStyle = '#333';
+            ctx.font = '10px Arial';
+            for (let i = 0; i < 16; i++) {
+                ctx.textAlign = 'center';
+                ctx.fillText(i, padding + i * (pixelSize + gap), padding - 21);
+                ctx.textAlign = 'right';
+                ctx.fillText(i, padding - 19, padding + i * (pixelSize + gap) );
+            }
+
+
+
+        }
+
+        // functions
+        function getPixelAtMouse(x,y) {
+            const pixelSize = 28;
+            const gap = 2;
+            const padding = 45;
+            
+            for (const [name, data] of Object.entries(channels)) {
+                const px = padding + data.x * (pixelSize + gap) - pixelSize/2;
+                const py = padding + data.y * (pixelSize + gap) - pixelSize/2;
+                
+                if (x >= px && x <= px + pixelSize && y >= py && y <= py + pixelSize) {
+                    return {name, data};
+                }
+            }
+            return null;
+        }
+        function getPixelLaserCoords(pixelData) {
+            // Convert pixel (x,y) to laser coordinates (mm)
+            // offset is the CENTER of pixel (0,0)
+            return {
+                x: ((pixelData.x) * detectorSpecs.pixel_pitch_mm) + detectorOffset.x,
+                y: (pixelData.y * detectorSpecs.pixel_pitch_mm) + detectorOffset.y
+            };
+        }
+        
+        canvas.addEventListener('click', (e) => {
+            const rect = canvas.getBoundingClientRect();
+            const mouseX = e.clientX - rect.left; // Adjust for pixel center
+            const mouseY = e.clientY - rect.top;  // Adjust for pixel center
+            const pixel = getPixelAtMouse(mouseX, mouseY);
+            
+            if (pixel) {
+                selectedPixel = pixel.data;
+                const laserCoords = getPixelLaserCoords(pixel.data);
+                document.getElementById('infoReadout').textContent = pixel.data.readout;
+                document.getElementById('infoChannel').textContent = pixel.data.channel;
+                document.getElementById('infoX').textContent = pixel.data.x;
+                document.getElementById('infoY').textContent = pixel.data.y;
+                document.getElementById('infoLaserX').textContent = laserCoords.x.toFixed(3);
+                document.getElementById('infoLaserY').textContent = laserCoords.y.toFixed(3);
+                
+                infoBox.style.display = 'block';
+                drawCanvas();
+            }
+        });
+
+        function findNearestPixel(laserX, laserY) {
+            let nearestPixel = null;
+            let minDistance = Infinity;
+            
+            for (const [name, data] of Object.entries(channels)) {
+                const pixelLaserCoords = getPixelLaserCoords(data);
+                
+                const distance = Math.sqrt(
+                    Math.pow(laserX - pixelLaserCoords.x, 2) + 
+                    Math.pow(laserY - pixelLaserCoords.y, 2)
+                );
+                
+                if (distance < minDistance) {
+                    minDistance = distance;
+                    nearestPixel = {data, distance};
+                }
+            }
+
+            return nearestPixel;
+        }
+        
+        document.getElementById('findBtn').addEventListener('click', () => {
+            const laserX = parseFloat(document.getElementById('laserInputX').value);
+            const laserY = parseFloat(document.getElementById('laserInputY').value);
+            
+            const result = findNearestPixel(laserX, laserY);
+            
+            if (result) {
+                document.getElementById('resultReadout').textContent = result.data.readout;
+                document.getElementById('resultChannel').textContent = result.data.channel;
+                document.getElementById('resultX').textContent = result.data.x;
+                document.getElementById('resultY').textContent = result.data.y;
+                document.getElementById('resultDistance').textContent = result.distance.toFixed(3);
+                document.getElementById('resultBox').style.display = 'block';
+                
+                selectedPixel = result.data;
+                drawCanvas();
+            }
+        });
+        
+        offsetXInput.addEventListener('change', updateOffset);
+        offsetYInput.addEventListener('change', updateOffset);
+        
+        loadData();
+
+
+
+        let highlightedPixels = [];
+        
+        function highlightChannel() {
+            const readout = document.getElementById('readoutSelect').value;
+            const channel = parseInt(document.getElementById('channelInput').value);
+            
+            highlightedPixels = [];
+            
+            for (const [name, data] of Object.entries(channels)) {
+                if (readout === '') {
+                    // All octants
+                    if (data.channel === channel) {
+                        highlightedPixels.push(data);
+                    }
+                } else {
+                    // Specific octant
+                    if (data.readout === parseInt(readout) && data.channel === channel) {
+                        highlightedPixels.push(data);
+                    }
+                }
+            }
+            
+            drawCanvas();
+        }
+        
+        document.getElementById('highlightBtn').addEventListener('click', highlightChannel);
+
+        let scanRegion = null;
+        
+        function setScanRegion() {
+            const xMin = parseFloat(document.getElementById('scanXMin').value);
+            const yMin = parseFloat(document.getElementById('scanYMin').value);
+            const xDist = parseFloat(document.getElementById('scanXDist').value);
+            const yDist = parseFloat(document.getElementById('scanYDist').value);
+            
+            scanRegion = {
+                xMin: xMin - detectorOffset.x,
+                yMin: yMin - detectorOffset.y,
+                xMax: xMin + xDist - detectorOffset.x,
+                yMax: yMin + yDist - detectorOffset.y
+            };
+            
+            drawCanvas();
+        }
+        
+        document.getElementById('setScanBtn').addEventListener('click', setScanRegion);
+
+    </script>
+</body>
+</html>
