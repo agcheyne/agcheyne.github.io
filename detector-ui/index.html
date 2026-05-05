@@ -42,6 +42,22 @@
             padding: 8px;
             box-sizing: border-box;
         }
+
+                /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+                gap: 10px;
+                padding: 10px;
+            }
+            .canvas-container {
+                flex: 1;
+            }
+            .controls-container {
+                flex: 1;
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
