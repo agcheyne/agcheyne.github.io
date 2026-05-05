@@ -5,18 +5,6 @@ This project is a graphical user interface (GUI) for visualizing the channel lay
 UI links:
 [Photek Map](https://agcheyne.github.io/detector-ui/)
 
-## Project Structure
-
-```
-detector-ui                     # Folder containing the UI project. Defines the address.
-├── static                      
-│   ├── detector-data.json      # Detector mapping info (generared in app.py from mapping class)
-├── app.py                      # Standalone app that can pull info from API
-├── index.html                  # The main function that generates the html site
-README.md                       # Documentation - Printed on splash page
-_config.yml                     # Splash page config file
-```
-
 ## Installation
 No installation needed. Simply visit the site.
 
@@ -33,3 +21,14 @@ No installation needed. Simply visit the site.
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
+For those who are intested, the structure and overview is shown below.
+
+```
+detector-ui                     # Folder containing the UI project. Defines the address.
+├── static                      
+│   ├── detector-data.json      # Detector mapping info (generared in app.py from mapping class)
+├── app.py                      # Standalone app that can pull info from API
+├── index.html                  # The main function that generates the html site
+README.md                       # Documentation - Printed on splash page
+_config.yml                     # Splash page config file
+```
