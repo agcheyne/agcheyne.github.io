@@ -126,24 +126,24 @@
         <div style="display: flex; gap: 10px;">
             <div style="flex: 1;">
                 <label>X Min (mm):
-                    <input type="number" id="scanXMin" step="0.1" value="0">
+                    <input type="number" id="scanXMin" step="1.0" value="0">
                 </label>
             </div>
             <div style="flex: 1;">
                 <label>X Dist (mm):
-                    <input type="number" id="scanXDist" step="0.1" value="50">
+                    <input type="number" id="scanXDist" step="1.0" value="30">
                 </label>
             </div>
         </div>
         <div style="display: flex; gap: 10px;">
             <div style="flex: 1;">
                 <label>Y Min (mm):
-                    <input type="number" id="scanYMin" step="0.1" value="0">
+                    <input type="number" id="scanYMin" step="1.0" value="0">
                 </label>
             </div>
             <div style="flex: 1;">
                 <label>Y Dist (mm):
-                    <input type="number" id="scanYDist" step="0.1" value="50">
+                    <input type="number" id="scanYDist" step="1.0" value="15">
                 </label>
             </div>
         </div>
@@ -227,7 +227,6 @@
                 ctx.textBaseline = 'middle';
                 ctx.fillText(`${data.channel}`, x + pixelSize/2, y + pixelSize/2);
             }
-            
 
 
             // Draw selected pixel with bold outline and channel number
@@ -268,7 +267,7 @@
 
             // Draw scan region
             if (scanRegion) {
-                const padding = 45; // Increased padding
+                const padding = 45;
                 
                 // Convert mm to pixel coordinates
                 const x1 = padding + (scanRegion.xMin / detectorSpecs.pixel_pitch_mm) * (pixelSize + gap);
