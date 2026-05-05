@@ -4,160 +4,175 @@
         <title>Detector Channel Layout</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
             body {
                 font-family: Arial, sans-serif;
-                display: flex;
-                flex-direction: row;
-                gap: 20px;
-                padding: 20px;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: auto 1fr;
+                gap: 15px;
+                padding: 15px;
                 background-color: #f0f0f0;
+                min-height: 100vh;
+            }
+            h2 {
+                grid-column: 1 / -1;
+                margin-bottom: 0;
             }
             .canvas-container {
-                flex: 2;
-            }
-            .controls-container {
-                flex: 0.3;
+                grid-column: 1 / -1;
                 background: white;
-                padding: 20px;
+                padding: 15px;
                 border-radius: 8px;
                 box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-                height: fit-content;
             }
             canvas {
                 border: 2px solid #333;
                 background-color: white;
                 display: block;
+                width: 100%;
+                height: auto;
+            }
+            .controls-container {
+                background: white;
+                padding: 15px;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .control-group h3 {
+                margin: 0 0 10px 0;
+                font-size: 14px;
+            }
+            label {
+                display: block;
+                margin: 8px 0 4px 0;
+                font-weight: bold;
+                font-size: 12px;
+            }
+            input, select {
+                width: 100%;
+                padding: 6px;
+                box-sizing: border-box;
+                font-size: 12px;
+                margin-bottom: 8px;
+            }
+            button {
+                width: 100%;
+                padding: 8px;
+                margin-top: 10px;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 12px;
+            }
+            #infoBox button {
+                background-color: #4CAF50;
+            }
+            #findBtn {
+                background-color: #4CAF50;
+            }
+            #highlightBtn {
+                background-color: #2196F3;
+            }
+            #setScanBtn {
+                background-color: #FF9800;
+            }
+            p {
+                font-size: 12px;
+                margin: 6px 0;
             }
             
-            @media (max-width: 768px) {
+            @media (max-width: 1024px) {
                 body {
-                    flex-direction: column;
-                    gap: 10px;
-                    padding: 10px;
+                    grid-template-columns: 1fr;
                 }
                 .canvas-container {
-                    flex: 1;
-                    order: 1;
-                }
-                .controls-container {
-                    flex: 1;
-                    width: 100%;
-                    order: auto;
-                }
-                canvas {
-                    width: 100%;
-                    height: auto;
+                    grid-column: 1;
                 }
             }
         </style>
     </head>
     <body>
-<div class="canvas-container">
-    <h2>Photek MAPMT Channel map (detector face)</h2>
-    
-    <div style="margin-top: 10px; background: white; padding: 5px; border-radius: 8px; box-shadow: 0 2px 2px rgba(0,0,0,0.1); width: fit-content;">
-        <div style="display: flex; gap: 6px;">
-            <div style="flex: 1;">
-                <label style="display: block; margin: 4px 0 2px 0; font-weight: bold;">X Offset (mm):
-                    <input type="number" id="offsetX" step="0.1" value="0" style="width: 30%; padding: 2px; box-sizing: border-box;">
-                </label>
-            </div>
-            <div style="flex: 1;">
-                <label style="display: block; margin: 4px 0 2px 0; font-weight: bold;">Y Offset (mm):
-                    <input type="number" id="offsetY" step="0.1" value="0" style="width: 30%; padding: 2px; box-sizing: border-box;">
-                </label>
-            </div>
-        </div>
-        <p style="margin: 8px 0 0 0; font-size: 12px; color: #666;"><em>Offset is from centre of pixel (0,0)</em></p>
-    </div>
-    <canvas id="canvas" width="550" height="550"></canvas>
-
-</div>
+        <h2>Photek MAPMT Channel map (detector face)</h2>
         
+        <div class="canvas-container">
+            <div style="margin-bottom: 10px; display: flex; gap: 10px;">
+                <div style="flex: 1;">
+                    <label style="margin: 0;">X Offset (mm):
+                        <input type="number" id="offsetX" step="0.1" value="0">
+                    </label>
+                </div>
+                <div style="flex: 1;">
+                    <label style="margin: 0;">Y Offset (mm):
+                        <input type="number" id="offsetY" step="0.1" value="0">
+                    </label>
+                </div>
+            </div>
+            <p style="font-size: 11px; color: #666;"><em>Offset is from centre of pixel (0,0)</em></p>
+            <canvas id="canvas" width="550" height="550"></canvas>
+        </div>
+
         <div class="controls-container">
             <div class="control-group" id="infoBox">
                 <h3>Pixel Info (Click)</h3>
-                <p><strong>Readout Block:</strong><br><span id="infoReadout">-</span></p>
-                <p><strong>Channel:</strong><br><span id="infoChannel">-</span></p>
-                <p><strong>Pixel (X, Y):</strong><br><span id="infoX">-</span>, <span id="infoY">-</span></p>
-                <p><strong>Laser (X, Y) mm:</strong><br><span id="infoLaserX">-</span>, <span id="infoLaserY">-</span></p>
+                <p><strong>Readout:</strong> <span id="infoReadout">-</span></p>
+                <p><strong>Channel:</strong> <span id="infoChannel">-</span></p>
+                <p><strong>Pixel (X, Y):</strong> <span id="infoX">-</span>, <span id="infoY">-</span></p>
+                <p><strong>Laser (mm):</strong> <span id="infoLaserX">-</span>, <span id="infoLaserY">-</span></p>
             </div>
         </div>
-        
+
         <div class="controls-container">
             <div class="control-group">
                 <h3>Find by Laser Position</h3>
-                <label>Laser X (mm):
-                    <input type="number" id="laserInputX" step="0.1" value="0">
-                </label>
-                <label>Laser Y (mm):
-                    <input type="number" id="laserInputY" step="0.1" value="0">
-                </label>
-                <button id="findBtn" style="width: 100%; padding: 10px; margin-top: 10px; background-color: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer;">Find Pixel</button>
-            </div>
-            
-            <div class="control-group" id="resultBox" style="display:none; background-color: #e8f5e9; border: 1px solid #4CAF50; padding: 10px; margin-top: 10px;">
-                <h3>Result</h3>
-                <p><strong>Readout Block:</strong> <span id="resultReadout"></span></p>
-                <p><strong>Channel:</strong> <span id="resultChannel"></span></p>
-                <p><strong>Pixel X, Y:</strong> <span id="resultX"></span>, <span id="resultY"></span></p>
-                <p><strong>Distance:</strong> <span id="resultDistance"></span> mm</p>
+                <label>Laser X (mm):<input type="number" id="laserInputX" step="0.1" value="0"></label>
+                <label>Laser Y (mm):<input type="number" id="laserInputY" step="0.1" value="0"></label>
+                <button id="findBtn">Find Pixel</button>
+                <div id="resultBox" style="display:none; background-color: #e8f5e9; border: 1px solid #4CAF50; padding: 8px; margin-top: 10px; font-size: 12px;">
+                    <p><strong>Readout:</strong> <span id="resultReadout"></span></p>
+                    <p><strong>Channel:</strong> <span id="resultChannel"></span></p>
+                    <p><strong>Pixel X, Y:</strong> <span id="resultX"></span>, <span id="resultY"></span></p>
+                    <p><strong>Distance:</strong> <span id="resultDistance"></span> mm</p>
+                </div>
             </div>
         </div>
+
         <div class="controls-container">
             <div class="control-group">
                 <h3>Highlight Channel</h3>
-                <label>Readout Block:
-                    <select id="readoutSelect" style="width: 100%; padding: 8px; box-sizing: border-box;">
-                        <option value="">All Octants</option>
-                        <option value="0">Octant 0</option>
-                        <option value="1">Octant 1</option>
-                        <option value="2">Octant 2</option>
-                        <option value="3">Octant 3</option>
-                        <option value="4">Octant 4</option>
-                        <option value="5">Octant 5</option>
-                        <option value="6">Octant 6</option>
-                        <option value="7">Octant 7</option>
-                    </select>
-                </label>
-                <label>Channel Number:
-                    <input type="number" id="channelInput" min="0" max="31" step="1" value="0" style="width: 100%; padding: 8px; box-sizing: border-box;">
-                </label>
-                <button id="highlightBtn" style="width: 100%; padding: 10px; margin-top: 10px; background-color: #2196F3; color: white; border: none; border-radius: 4px; cursor: pointer;">Highlight</button>
+                <label>Readout Block:<select id="readoutSelect">
+                    <option value="">All Octants</option>
+                    <option value="0">Octant 0</option>
+                    <option value="1">Octant 1</option>
+                    <option value="2">Octant 2</option>
+                    <option value="3">Octant 3</option>
+                    <option value="4">Octant 4</option>
+                    <option value="5">Octant 5</option>
+                    <option value="6">Octant 6</option>
+                    <option value="7">Octant 7</option>
+                </select></label>
+                <label>Channel Number:<input type="number" id="channelInput" min="0" max="31" step="1" value="0"></label>
+                <button id="highlightBtn">Highlight</button>
             </div>
         </div>
-<div class="controls-container">
-    <div class="control-group">
-        <h3>Scan Region</h3>
-        <div style="display: flex; gap: 10px;">
-            <div style="flex: 1;">
-                <label>X Min (mm):
-                    <input type="number" id="scanXMin" step="1.0" value="0">
-                </label>
-            </div>
-            <div style="flex: 1;">
-                <label>X Dist (mm):
-                    <input type="number" id="scanXDist" step="1.0" value="30">
-                </label>
-            </div>
-        </div>
-        <div style="display: flex; gap: 10px;">
-            <div style="flex: 1;">
-                <label>Y Min (mm):
-                    <input type="number" id="scanYMin" step="1.0" value="0">
-                </label>
-            </div>
-            <div style="flex: 1;">
-                <label>Y Dist (mm):
-                    <input type="number" id="scanYDist" step="1.0" value="15">
-                </label>
-            </div>
-        </div>
-        <button id="setScanBtn" style="width: 100%; padding: 10px; margin-top: 10px; background-color: #FF9800; color: white; border: none; border-radius: 4px; cursor: pointer;">Set Scan Region</button>
-    </div>
-</div>
 
-    <script>
+        <div class="controls-container">
+            <div class="control-group">
+                <h3>Scan Region</h3>
+                <label>X Min (mm):<input type="number" id="scanXMin" step="1.0" value="0"></label>
+                <label>X Dist (mm):<input type="number" id="scanXDist" step="1.0" value="30"></label>
+                <label>Y Min (mm):<input type="number" id="scanYMin" step="1.0" value="0"></label>
+                <label>Y Dist (mm):<input type="number" id="scanYDist" step="1.0" value="15"></label>
+                <button id="setScanBtn">Set Scan Region</button>
+            </div>
+        </div>
+
+        <script>
         const canvas = document.getElementById('canvas');
         const ctx = canvas.getContext('2d');
         const offsetXInput = document.getElementById('offsetX');
