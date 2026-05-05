@@ -8,49 +8,27 @@ UI links:
 ## Project Structure
 
 ```
-detector-ui
-├── src
-│   ├── main.py          # Entry point of the application
-│   ├── ui               # Contains UI components
-│   │   ├── canvas.py    # Renders the detector face layout
-│   │   ├── window.py     # Creates the main application window
-│   │   └── __init__.py   # Marks the ui directory as a package
-│   ├── detector         # Contains detector-related logic
-│   │   ├── layout.py    # Defines the channel layout for the detector
-│   │   └── __init__.py   # Marks the detector directory as a package
-│   └── utils            # Contains utility functions and configurations
-│       ├── config.py    # Configuration settings for the application
-│       └── __init__.py   # Marks the utils directory as a package
-├── requirements.txt     # Lists project dependencies
-├── setup.py             # Packaging information for the application
-└── README.md            # Documentation for the project
+detector-ui                     # Folder containing the UI project. Defines the address.
+├── static                      
+│   ├── detector-data.json      # Detector mapping info (generared in app.py from mapping class)
+├── app.py                      # Standalone app that can pull info from API
+├── index.html                  # The main function that generates the html site
+README.md                       # Documentation - Printed on splash page
+_config.yml                     # Splash page config file
 ```
 
 ## Installation
-
-To set up the project, clone the repository and install the required dependencies:
-
-```bash
-git clone <repository-url>
-cd detector-ui
-pip install -r requirements.txt
-```
-
-## Usage
-
-To run the application, execute the following command:
-
-```bash
-python src/main.py
-```
-
-This will launch the GUI, displaying the detector face and its channel layout.
+No installation needed. Simply visit the site.
 
 ## Features
 
 - Visual representation of the detector's channel layout.
-- Modular design with separate components for UI, detector logic, and utilities.
-- Easy to extend and modify for future enhancements.
+- Tools are available for:
+- - Finding a pixel channel, and laser position (via click)
+  - Look up for laser x,y position. Returns channel, and readout board.
+  - Look up a channel position (all or in specific octants)
+  - Adding a mask for laser scans, showing defined region of interest.
+- Easy to extend and modify for future enhancements, and other detector layouts.
 
 ## Contributing
 
