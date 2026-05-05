@@ -171,8 +171,8 @@ async function loadData() {
         detectorSpecs = data.specs;
         
         // Set default offset from specs
-        detectorOffset.x = detectorSpecs.offset_x_mm || 0;
-        detectorOffset.y = detectorSpecs.offset_y_mm || 0;
+        detectorOffset.x = detectorSpecs.offset_x_mm || 28.156;
+        detectorOffset.y = detectorSpecs.offset_y_mm || 65.562;
         
         // Update input fields to match
         offsetXInput.value = detectorOffset.x;
