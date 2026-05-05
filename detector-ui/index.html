@@ -1,56 +1,56 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Detector Channel Layout</title>
+    <head>
+        <title>Detector Channel Layout</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: row;
-            gap: 20px;
-            padding: 20px;
-            background-color: #f0f0f0;
-        }
-        .canvas-container {
-            flex: 2;
-        }
-        .controls-container {
-            flex: 0.3;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            height: fit-content;
-        }
-        canvas {
-            border: 2px solid #333;
-            background-color: white;
-            display: block;
-        }
-        
-        @media (max-width: 768px) {
             body {
-                flex-direction: column;
-                gap: 10px;
-                padding: 10px;
+                font-family: Arial, sans-serif;
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                padding: 20px;
+                background-color: #f0f0f0;
             }
             .canvas-container {
-                flex: 1;
-                order: 1;
+                flex: 2;
             }
             .controls-container {
-                flex: 1;
-                width: 100%;
-                order: auto;
+                flex: 0.3;
+                background: white;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                height: fit-content;
             }
             canvas {
-                width: 100%;
-                height: auto;
+                border: 2px solid #333;
+                background-color: white;
+                display: block;
             }
-        }
-    </style>
-</head>
-<body>
+            
+            @media (max-width: 768px) {
+                body {
+                    flex-direction: column;
+                    gap: 10px;
+                    padding: 10px;
+                }
+                .canvas-container {
+                    flex: 1;
+                    order: 1;
+                }
+                .controls-container {
+                    flex: 1;
+                    width: 100%;
+                    order: auto;
+                }
+                canvas {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        </style>
+    </head>
     <body>
 <div class="canvas-container">
     <h2>Photek MAPMT Channel map (detector face)</h2>
