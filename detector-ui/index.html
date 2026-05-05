@@ -163,17 +163,27 @@
         let detectorOffset = {x: 0, y: 0};
         let detectorSpecs = {};
         
-        async function loadData() {
-            try {
-                const response = await fetch('./static/detector-data.json');
-                const data = await response.json();
-                channels = data.channels;
-                detectorSpecs = data.specs;
-                drawCanvas();
-            } catch (error) {
-                console.error('Error loading detector data:', error);
-            }
-        }
+async function loadData() {
+    try {
+        const response = await fetch('./static/detector-data.json');
+        const data = await response.json();
+        channels = data.channels;
+        detectorSpecs = data.specs;
+        
+        // Set default offset from specs
+        detectorOffset.x = detectorSpecs.offset_x_mm || 0;
+        detectorOffset.y = detectorSpecs.offset_y_mm || 0;
+        
+        // Update input fields to match
+        offsetXInput.value = detectorOffset.x;
+        offsetYInput.value = detectorOffset.y;
+        
+        drawCanvas();
+    } catch (error) {
+        console.error('Error loading detector data:', error);
+    }
+}
+        
         
         async function updateOffset() {
             detectorOffset.x = parseFloat(offsetXInput.value);
