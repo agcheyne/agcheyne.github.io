@@ -438,11 +438,11 @@ async function loadData() {
             const yDist = parseFloat(document.getElementById('scanYDist').value);
             
             scanRegion = {
-                xMin: xMin,
-                yMin: yMin,
-                xMax: xMin + xDist,
-                yMax: yMin + yDist
-            };
+                xMin: xMin - detectorOffset.x,
+                yMin: yMin - detectorOffset.y,
+                xMax: xMin + xDist - detectorOffset.x,
+                yMax: yMin + yDist - detectorOffset.y
+            }
             
             drawCanvas();
         }
