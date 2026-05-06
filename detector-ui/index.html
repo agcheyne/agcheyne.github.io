@@ -275,24 +275,33 @@ async function loadData() {
 
             // Draw scan region
             if (scanRegion) {
-                const padding = 45;
-                
-                // Convert mm to pixel coordinates
-                const x1 = padding + (scanRegion.xMin / detectorSpecs.pixel_pitch_mm) * (pixelSize + gap);
-                const y1 = padding + (scanRegion.yMin / detectorSpecs.pixel_pitch_mm) * (pixelSize + gap);
-                const x2 = padding + (scanRegion.xMax / detectorSpecs.pixel_pitch_mm) * (pixelSize + gap);
-                const y2 = padding + (scanRegion.yMax / detectorSpecs.pixel_pitch_mm) * (pixelSize + gap);
+                if (!detectorSpecs.pixel_pitch_mm) {
+                    console.warn('pixel_pitch_mm missing in detector specs; cannot draw scan region');
+                } else {
+                    // Scan region is defined in LASER coordinates (mm)
+                    // Convert laser mm -> pixel-grid mm by subtracting detectorOffset.
+                    const xMinPxMm = scanRegion.xMin - detectorOffset.x;
+                    const yMinPxMm = scanRegion.yMin - detectorOffset.y;
+                    const xMaxPxMm = scanRegion.xMax - detectorOffset.x;
+                    const yMaxPxMm = scanRegion.yMax - detectorOffset.y;
 
+                    // Convert pixel-grid mm -> canvas px.
+                    // Note: pixel (0,0) is drawn with its center at `padding`, hence no +/- pixelSize/2 here.
+                    const x1 = padding + (xMinPxMm / detectorSpecs.pixel_pitch_mm) * (pixelSize + gap);
+                    const y1 = padding + (yMinPxMm / detectorSpecs.pixel_pitch_mm) * (pixelSize + gap);
+                    const x2 = padding + (xMaxPxMm / detectorSpecs.pixel_pitch_mm) * (pixelSize + gap);
+                    const y2 = padding + (yMaxPxMm / detectorSpecs.pixel_pitch_mm) * (pixelSize + gap);
 
-                ctx.strokeStyle = '#FF1493';
-                ctx.lineWidth = 6;
-                ctx.strokeRect(x1, y1, x2 - x1, y2 - y1);
-                ctx.setLineDash([]);
-                
-                // Draw label
-                ctx.fillStyle = '#FF1493';
-                ctx.font = 'bold 12px Arial';
-                ctx.fillText('SCAN', x1 - 5, y1 - 10);
+                    ctx.strokeStyle = '#FF1493';
+                    ctx.lineWidth = 6;
+                    ctx.strokeRect(x1, y1, x2 - x1, y2 - y1);
+                    ctx.setLineDash([]);
+                    
+                    // Draw label
+                    ctx.fillStyle = '#FF1493';
+                    ctx.font = 'bold 12px Arial';
+                    ctx.fillText('SCAN', x1 - 5, y1 - 10);
+                }
             }
 
             // Draw axes labels
@@ -432,17 +441,18 @@ async function loadData() {
         let scanRegion = null;
         
         function setScanRegion() {
+            // Inputs are LASER coordinates (mm)
             const xMin = parseFloat(document.getElementById('scanXMin').value);
             const yMin = parseFloat(document.getElementById('scanYMin').value);
             const xDist = parseFloat(document.getElementById('scanXDist').value);
             const yDist = parseFloat(document.getElementById('scanYDist').value);
             
             scanRegion = {
-                xMin: xMin - detectorOffset.x,
-                yMin: yMin - detectorOffset.y,
-                xMax: xMin + xDist - detectorOffset.x,
-                yMax: yMin + yDist - detectorOffset.y
-            }
+                xMin: xMin,
+                yMin: yMin,
+                xMax: xMin + xDist,
+                yMax: yMin + yDist
+            };
             
             drawCanvas();
         }
