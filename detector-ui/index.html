@@ -283,10 +283,10 @@ async function loadData() {
                 } else {
                     // Scan region is defined in LASER coordinates (mm)
                     // Convert laser mm -> pixel-grid mm by subtracting detectorOffset.
-                    const xMinPxMm = scanRegion.xMin;
-                    const yMinPxMm = scanRegion.yMin;
-                    const xMaxPxMm = scanRegion.xMax;
-                    const yMaxPxMm = scanRegion.yMax;
+                    const xMinPxMm = scanRegion.xMin - detectorOffset.x;
+                    const yMinPxMm = scanRegion.yMin - detectorOffset.y;
+                    const xMaxPxMm = scanRegion.xMax - detectorOffset.x;
+                    const yMaxPxMm = scanRegion.yMax - detectorOffset.y;
 
                     // Convert pixel-grid mm -> canvas px.
                     // Note: pixel (0,0) is drawn with its center at `padding`, hence no +/- pixelSize/2 here.
