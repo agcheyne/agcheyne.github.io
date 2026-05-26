@@ -4,6 +4,7 @@ This project is a graphical user interface (GUI) for visualizing the channel lay
 
 UI links:
 [Photek Map](https://agcheyne.github.io/detector-ui/)
+[Photonis Map](https://agcheyne.github.io/photonis-ui/)
 
 ## Installation
 No installation needed. Simply visit the site.
@@ -29,6 +30,10 @@ detector-ui                     # Folder containing the UI project. Defines the 
 │   ├── detector-data.json      # Detector mapping info (generared in app.py from mapping class)
 ├── app.py                      # Standalone app that can pull info from API
 ├── index.html                  # The main function that generates the html site
+photonis-ui                     # Photonis MA-PMT detector UI (static site)
+├── static
+│   ├── detector-data.json      # Photonis detector mapping/specs
+├── index.html                  # Photonis detector page
 README.md                       # Documentation - Printed on splash page
 _config.yml                     # Splash page config file
 ```

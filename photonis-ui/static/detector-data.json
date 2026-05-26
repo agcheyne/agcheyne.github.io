@@ -1,0 +1,393 @@
+{
+  "channels": {
+    "R0_Ch1": {
+      "x": 0,
+      "y": 0,
+      "readout": 0,
+      "channel": 1
+    },
+    "R0_Ch2": {
+      "x": 1,
+      "y": 0,
+      "readout": 0,
+      "channel": 2
+    },
+    "R0_Ch5": {
+      "x": 2,
+      "y": 0,
+      "readout": 0,
+      "channel": 5
+    },
+    "R0_Ch6": {
+      "x": 3,
+      "y": 0,
+      "readout": 0,
+      "channel": 6
+    },
+    "R0_Ch9": {
+      "x": 4,
+      "y": 0,
+      "readout": 0,
+      "channel": 9
+    },
+    "R0_Ch10": {
+      "x": 5,
+      "y": 0,
+      "readout": 0,
+      "channel": 10
+    },
+    "R0_Ch13": {
+      "x": 6,
+      "y": 0,
+      "readout": 0,
+      "channel": 13
+    },
+    "R0_Ch14": {
+      "x": 7,
+      "y": 0,
+      "readout": 0,
+      "channel": 14
+    },
+    "R0_Ch0": {
+      "x": 0,
+      "y": 1,
+      "readout": 0,
+      "channel": 0
+    },
+    "R0_Ch3": {
+      "x": 1,
+      "y": 1,
+      "readout": 0,
+      "channel": 3
+    },
+    "R0_Ch4": {
+      "x": 2,
+      "y": 1,
+      "readout": 0,
+      "channel": 4
+    },
+    "R0_Ch7": {
+      "x": 3,
+      "y": 1,
+      "readout": 0,
+      "channel": 7
+    },
+    "R0_Ch8": {
+      "x": 4,
+      "y": 1,
+      "readout": 0,
+      "channel": 8
+    },
+    "R0_Ch11": {
+      "x": 5,
+      "y": 1,
+      "readout": 0,
+      "channel": 11
+    },
+    "R0_Ch12": {
+      "x": 6,
+      "y": 1,
+      "readout": 0,
+      "channel": 12
+    },
+    "R0_Ch15": {
+      "x": 7,
+      "y": 1,
+      "readout": 0,
+      "channel": 15
+    },
+    "R0_Ch31": {
+      "x": 0,
+      "y": 2,
+      "readout": 0,
+      "channel": 31
+    },
+    "R0_Ch28": {
+      "x": 1,
+      "y": 2,
+      "readout": 0,
+      "channel": 28
+    },
+    "R0_Ch27": {
+      "x": 2,
+      "y": 2,
+      "readout": 0,
+      "channel": 27
+    },
+    "R0_Ch24": {
+      "x": 3,
+      "y": 2,
+      "readout": 0,
+      "channel": 24
+    },
+    "R0_Ch23": {
+      "x": 4,
+      "y": 2,
+      "readout": 0,
+      "channel": 23
+    },
+    "R0_Ch20": {
+      "x": 5,
+      "y": 2,
+      "readout": 0,
+      "channel": 20
+    },
+    "R0_Ch19": {
+      "x": 6,
+      "y": 2,
+      "readout": 0,
+      "channel": 19
+    },
+    "R0_Ch16": {
+      "x": 7,
+      "y": 2,
+      "readout": 0,
+      "channel": 16
+    },
+    "R0_Ch30": {
+      "x": 0,
+      "y": 3,
+      "readout": 0,
+      "channel": 30
+    },
+    "R0_Ch29": {
+      "x": 1,
+      "y": 3,
+      "readout": 0,
+      "channel": 29
+    },
+    "R0_Ch26": {
+      "x": 2,
+      "y": 3,
+      "readout": 0,
+      "channel": 26
+    },
+    "R0_Ch25": {
+      "x": 3,
+      "y": 3,
+      "readout": 0,
+      "channel": 25
+    },
+    "R0_Ch22": {
+      "x": 4,
+      "y": 3,
+      "readout": 0,
+      "channel": 22
+    },
+    "R0_Ch21": {
+      "x": 5,
+      "y": 3,
+      "readout": 0,
+      "channel": 21
+    },
+    "R0_Ch18": {
+      "x": 6,
+      "y": 3,
+      "readout": 0,
+      "channel": 18
+    },
+    "R0_Ch17": {
+      "x": 7,
+      "y": 3,
+      "readout": 0,
+      "channel": 17
+    },
+    "R1_Ch1": {
+      "x": 0,
+      "y": 4,
+      "readout": 1,
+      "channel": 1
+    },
+    "R1_Ch2": {
+      "x": 1,
+      "y": 4,
+      "readout": 1,
+      "channel": 2
+    },
+    "R1_Ch5": {
+      "x": 2,
+      "y": 4,
+      "readout": 1,
+      "channel": 5
+    },
+    "R1_Ch6": {
+      "x": 3,
+      "y": 4,
+      "readout": 1,
+      "channel": 6
+    },
+    "R1_Ch9": {
+      "x": 4,
+      "y": 4,
+      "readout": 1,
+      "channel": 9
+    },
+    "R1_Ch10": {
+      "x": 5,
+      "y": 4,
+      "readout": 1,
+      "channel": 10
+    },
+    "R1_Ch13": {
+      "x": 6,
+      "y": 4,
+      "readout": 1,
+      "channel": 13
+    },
+    "R1_Ch14": {
+      "x": 7,
+      "y": 4,
+      "readout": 1,
+      "channel": 14
+    },
+    "R1_Ch0": {
+      "x": 0,
+      "y": 5,
+      "readout": 1,
+      "channel": 0
+    },
+    "R1_Ch3": {
+      "x": 1,
+      "y": 5,
+      "readout": 1,
+      "channel": 3
+    },
+    "R1_Ch4": {
+      "x": 2,
+      "y": 5,
+      "readout": 1,
+      "channel": 4
+    },
+    "R1_Ch7": {
+      "x": 3,
+      "y": 5,
+      "readout": 1,
+      "channel": 7
+    },
+    "R1_Ch8": {
+      "x": 4,
+      "y": 5,
+      "readout": 1,
+      "channel": 8
+    },
+    "R1_Ch11": {
+      "x": 5,
+      "y": 5,
+      "readout": 1,
+      "channel": 11
+    },
+    "R1_Ch12": {
+      "x": 6,
+      "y": 5,
+      "readout": 1,
+      "channel": 12
+    },
+    "R1_Ch15": {
+      "x": 7,
+      "y": 5,
+      "readout": 1,
+      "channel": 15
+    },
+    "R1_Ch31": {
+      "x": 0,
+      "y": 6,
+      "readout": 1,
+      "channel": 31
+    },
+    "R1_Ch28": {
+      "x": 1,
+      "y": 6,
+      "readout": 1,
+      "channel": 28
+    },
+    "R1_Ch27": {
+      "x": 2,
+      "y": 6,
+      "readout": 1,
+      "channel": 27
+    },
+    "R1_Ch24": {
+      "x": 3,
+      "y": 6,
+      "readout": 1,
+      "channel": 24
+    },
+    "R1_Ch23": {
+      "x": 4,
+      "y": 6,
+      "readout": 1,
+      "channel": 23
+    },
+    "R1_Ch20": {
+      "x": 5,
+      "y": 6,
+      "readout": 1,
+      "channel": 20
+    },
+    "R1_Ch19": {
+      "x": 6,
+      "y": 6,
+      "readout": 1,
+      "channel": 19
+    },
+    "R1_Ch16": {
+      "x": 7,
+      "y": 6,
+      "readout": 1,
+      "channel": 16
+    },
+    "R1_Ch30": {
+      "x": 0,
+      "y": 7,
+      "readout": 1,
+      "channel": 30
+    },
+    "R1_Ch29": {
+      "x": 1,
+      "y": 7,
+      "readout": 1,
+      "channel": 29
+    },
+    "R1_Ch26": {
+      "x": 2,
+      "y": 7,
+      "readout": 1,
+      "channel": 26
+    },
+    "R1_Ch25": {
+      "x": 3,
+      "y": 7,
+      "readout": 1,
+      "channel": 25
+    },
+    "R1_Ch22": {
+      "x": 4,
+      "y": 7,
+      "readout": 1,
+      "channel": 22
+    },
+    "R1_Ch21": {
+      "x": 5,
+      "y": 7,
+      "readout": 1,
+      "channel": 21
+    },
+    "R1_Ch18": {
+      "x": 6,
+      "y": 7,
+      "readout": 1,
+      "channel": 18
+    },
+    "R1_Ch17": {
+      "x": 7,
+      "y": 7,
+      "readout": 1,
+      "channel": 17
+    }
+  },
+  "specs": {
+    "pixel_pitch_mm": 6.5,
+    "offset_x_mm": 34.0,
+    "offset_y_mm": 70.5
+  }
+}
