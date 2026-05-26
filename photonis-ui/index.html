@@ -9,7 +9,7 @@
                 padding: 0;
                 box-sizing: border-box;
             }            
-                        body {
+            body {
                 font-family: Arial, sans-serif;
                 display: grid;
                 grid-template-columns: 2fr 1fr 1fr;
@@ -197,8 +197,6 @@ async function loadData() {
             const pixelSize = 28;
             const gap = 2;
             const padding = 45;
-            const pixel_mm_real = 3.312; // mm per pixel in real space (used for laser position calculation)
-
             ctx.fillStyle = 'white';
             ctx.fillRect(0, 0, canvas.width, canvas.height);
             
