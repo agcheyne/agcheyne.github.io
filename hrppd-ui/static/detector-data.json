@@ -1,0 +1,8202 @@
+{
+  "channels": {
+    "C0S6_Ch24": {
+      "x": 31,
+      "y": 0,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 24
+    },
+    "C0S6_Ch17": {
+      "x": 30,
+      "y": 0,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 17
+    },
+    "C0S6_Ch18": {
+      "x": 29,
+      "y": 0,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 18
+    },
+    "C0S6_Ch19": {
+      "x": 28,
+      "y": 0,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 19
+    },
+    "C0S7_Ch3": {
+      "x": 27,
+      "y": 0,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 3
+    },
+    "C0S7_Ch23": {
+      "x": 26,
+      "y": 0,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 23
+    },
+    "C0S7_Ch9": {
+      "x": 25,
+      "y": 0,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 9
+    },
+    "C0S7_Ch2": {
+      "x": 24,
+      "y": 0,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 2
+    },
+    "C0S6_Ch10": {
+      "x": 31,
+      "y": 1,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 10
+    },
+    "C0S6_Ch26": {
+      "x": 30,
+      "y": 1,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 26
+    },
+    "C0S6_Ch31": {
+      "x": 29,
+      "y": 1,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 31
+    },
+    "C0S6_Ch11": {
+      "x": 28,
+      "y": 1,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 11
+    },
+    "C0S7_Ch11": {
+      "x": 27,
+      "y": 1,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 11
+    },
+    "C0S7_Ch15": {
+      "x": 26,
+      "y": 1,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 15
+    },
+    "C0S7_Ch6": {
+      "x": 25,
+      "y": 1,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 6
+    },
+    "C0S7_Ch10": {
+      "x": 24,
+      "y": 1,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 10
+    },
+    "C0S6_Ch23": {
+      "x": 31,
+      "y": 2,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 23
+    },
+    "C0S6_Ch30": {
+      "x": 30,
+      "y": 2,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 30
+    },
+    "C0S6_Ch20": {
+      "x": 29,
+      "y": 2,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 20
+    },
+    "C0S6_Ch21": {
+      "x": 28,
+      "y": 2,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 21
+    },
+    "C0S7_Ch13": {
+      "x": 27,
+      "y": 2,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 13
+    },
+    "C0S7_Ch12": {
+      "x": 26,
+      "y": 2,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 12
+    },
+    "C0S7_Ch14": {
+      "x": 25,
+      "y": 2,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 14
+    },
+    "C0S7_Ch0": {
+      "x": 24,
+      "y": 2,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 0
+    },
+    "C0S6_Ch8": {
+      "x": 31,
+      "y": 3,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 8
+    },
+    "C0S6_Ch12": {
+      "x": 30,
+      "y": 3,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 12
+    },
+    "C0S6_Ch25": {
+      "x": 29,
+      "y": 3,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 25
+    },
+    "C0S7_Ch5": {
+      "x": 28,
+      "y": 3,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 5
+    },
+    "C0S6_Ch27": {
+      "x": 27,
+      "y": 3,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 27
+    },
+    "C0S7_Ch20": {
+      "x": 26,
+      "y": 3,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 20
+    },
+    "C0S7_Ch1": {
+      "x": 25,
+      "y": 3,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 1
+    },
+    "C0S7_Ch8": {
+      "x": 24,
+      "y": 3,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 8
+    },
+    "C0S6_Ch22": {
+      "x": 31,
+      "y": 4,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 22
+    },
+    "C0S6_Ch9": {
+      "x": 30,
+      "y": 4,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 9
+    },
+    "C0S6_Ch28": {
+      "x": 29,
+      "y": 4,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 28
+    },
+    "C0S6_Ch29": {
+      "x": 28,
+      "y": 4,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 29
+    },
+    "C0S7_Ch21": {
+      "x": 27,
+      "y": 4,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 21
+    },
+    "C0S7_Ch7": {
+      "x": 26,
+      "y": 4,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 7
+    },
+    "C0S7_Ch17": {
+      "x": 25,
+      "y": 4,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 17
+    },
+    "C0S7_Ch22": {
+      "x": 24,
+      "y": 4,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 22
+    },
+    "C0S6_Ch0": {
+      "x": 31,
+      "y": 5,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 0
+    },
+    "C0S6_Ch16": {
+      "x": 30,
+      "y": 5,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 16
+    },
+    "C0S6_Ch2": {
+      "x": 29,
+      "y": 5,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 2
+    },
+    "C0S6_Ch3": {
+      "x": 28,
+      "y": 5,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 3
+    },
+    "C0S7_Ch29": {
+      "x": 27,
+      "y": 5,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 29
+    },
+    "C0S7_Ch28": {
+      "x": 26,
+      "y": 5,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 28
+    },
+    "C0S7_Ch16": {
+      "x": 25,
+      "y": 5,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 16
+    },
+    "C0S7_Ch30": {
+      "x": 24,
+      "y": 5,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 30
+    },
+    "C0S6_Ch14": {
+      "x": 31,
+      "y": 6,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 14
+    },
+    "C0S6_Ch6": {
+      "x": 30,
+      "y": 6,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 6
+    },
+    "C0S6_Ch7": {
+      "x": 29,
+      "y": 6,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 7
+    },
+    "C0S7_Ch19": {
+      "x": 28,
+      "y": 6,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 19
+    },
+    "C0S6_Ch13": {
+      "x": 27,
+      "y": 6,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 13
+    },
+    "C0S7_Ch25": {
+      "x": 26,
+      "y": 6,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 25
+    },
+    "C0S7_Ch24": {
+      "x": 25,
+      "y": 6,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 24
+    },
+    "C0S7_Ch4": {
+      "x": 24,
+      "y": 6,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 4
+    },
+    "C0S6_Ch4": {
+      "x": 31,
+      "y": 7,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 4
+    },
+    "C0S6_Ch1": {
+      "x": 30,
+      "y": 7,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 1
+    },
+    "C0S6_Ch15": {
+      "x": 29,
+      "y": 7,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 15
+    },
+    "C0S6_Ch5": {
+      "x": 28,
+      "y": 7,
+      "readout": 6,
+      "block": 0,
+      "slot": 6,
+      "channel": 5
+    },
+    "C0S7_Ch27": {
+      "x": 27,
+      "y": 7,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 27
+    },
+    "C0S7_Ch18": {
+      "x": 26,
+      "y": 7,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 18
+    },
+    "C0S7_Ch31": {
+      "x": 25,
+      "y": 7,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 31
+    },
+    "C0S7_Ch26": {
+      "x": 24,
+      "y": 7,
+      "readout": 7,
+      "block": 0,
+      "slot": 7,
+      "channel": 26
+    },
+    "C0S4_Ch24": {
+      "x": 31,
+      "y": 8,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 24
+    },
+    "C0S4_Ch17": {
+      "x": 30,
+      "y": 8,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 17
+    },
+    "C0S4_Ch18": {
+      "x": 29,
+      "y": 8,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 18
+    },
+    "C0S4_Ch19": {
+      "x": 28,
+      "y": 8,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 19
+    },
+    "C0S5_Ch3": {
+      "x": 27,
+      "y": 8,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 3
+    },
+    "C0S5_Ch23": {
+      "x": 26,
+      "y": 8,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 23
+    },
+    "C0S5_Ch9": {
+      "x": 25,
+      "y": 8,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 9
+    },
+    "C0S5_Ch2": {
+      "x": 24,
+      "y": 8,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 2
+    },
+    "C0S4_Ch10": {
+      "x": 31,
+      "y": 9,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 10
+    },
+    "C0S4_Ch26": {
+      "x": 30,
+      "y": 9,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 26
+    },
+    "C0S4_Ch31": {
+      "x": 29,
+      "y": 9,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 31
+    },
+    "C0S4_Ch11": {
+      "x": 28,
+      "y": 9,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 11
+    },
+    "C0S5_Ch11": {
+      "x": 27,
+      "y": 9,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 11
+    },
+    "C0S5_Ch15": {
+      "x": 26,
+      "y": 9,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 15
+    },
+    "C0S5_Ch6": {
+      "x": 25,
+      "y": 9,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 6
+    },
+    "C0S5_Ch10": {
+      "x": 24,
+      "y": 9,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 10
+    },
+    "C0S4_Ch23": {
+      "x": 31,
+      "y": 10,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 23
+    },
+    "C0S4_Ch30": {
+      "x": 30,
+      "y": 10,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 30
+    },
+    "C0S4_Ch20": {
+      "x": 29,
+      "y": 10,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 20
+    },
+    "C0S4_Ch21": {
+      "x": 28,
+      "y": 10,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 21
+    },
+    "C0S5_Ch13": {
+      "x": 27,
+      "y": 10,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 13
+    },
+    "C0S5_Ch12": {
+      "x": 26,
+      "y": 10,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 12
+    },
+    "C0S5_Ch14": {
+      "x": 25,
+      "y": 10,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 14
+    },
+    "C0S5_Ch0": {
+      "x": 24,
+      "y": 10,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 0
+    },
+    "C0S4_Ch8": {
+      "x": 31,
+      "y": 11,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 8
+    },
+    "C0S4_Ch12": {
+      "x": 30,
+      "y": 11,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 12
+    },
+    "C0S4_Ch25": {
+      "x": 29,
+      "y": 11,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 25
+    },
+    "C0S5_Ch5": {
+      "x": 28,
+      "y": 11,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 5
+    },
+    "C0S4_Ch27": {
+      "x": 27,
+      "y": 11,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 27
+    },
+    "C0S5_Ch20": {
+      "x": 26,
+      "y": 11,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 20
+    },
+    "C0S5_Ch1": {
+      "x": 25,
+      "y": 11,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 1
+    },
+    "C0S5_Ch8": {
+      "x": 24,
+      "y": 11,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 8
+    },
+    "C0S4_Ch22": {
+      "x": 31,
+      "y": 12,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 22
+    },
+    "C0S4_Ch9": {
+      "x": 30,
+      "y": 12,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 9
+    },
+    "C0S4_Ch28": {
+      "x": 29,
+      "y": 12,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 28
+    },
+    "C0S4_Ch29": {
+      "x": 28,
+      "y": 12,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 29
+    },
+    "C0S5_Ch21": {
+      "x": 27,
+      "y": 12,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 21
+    },
+    "C0S5_Ch7": {
+      "x": 26,
+      "y": 12,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 7
+    },
+    "C0S5_Ch17": {
+      "x": 25,
+      "y": 12,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 17
+    },
+    "C0S5_Ch22": {
+      "x": 24,
+      "y": 12,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 22
+    },
+    "C0S4_Ch0": {
+      "x": 31,
+      "y": 13,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 0
+    },
+    "C0S4_Ch16": {
+      "x": 30,
+      "y": 13,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 16
+    },
+    "C0S4_Ch2": {
+      "x": 29,
+      "y": 13,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 2
+    },
+    "C0S4_Ch3": {
+      "x": 28,
+      "y": 13,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 3
+    },
+    "C0S5_Ch29": {
+      "x": 27,
+      "y": 13,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 29
+    },
+    "C0S5_Ch28": {
+      "x": 26,
+      "y": 13,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 28
+    },
+    "C0S5_Ch16": {
+      "x": 25,
+      "y": 13,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 16
+    },
+    "C0S5_Ch30": {
+      "x": 24,
+      "y": 13,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 30
+    },
+    "C0S4_Ch14": {
+      "x": 31,
+      "y": 14,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 14
+    },
+    "C0S4_Ch6": {
+      "x": 30,
+      "y": 14,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 6
+    },
+    "C0S4_Ch7": {
+      "x": 29,
+      "y": 14,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 7
+    },
+    "C0S5_Ch19": {
+      "x": 28,
+      "y": 14,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 19
+    },
+    "C0S4_Ch13": {
+      "x": 27,
+      "y": 14,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 13
+    },
+    "C0S5_Ch25": {
+      "x": 26,
+      "y": 14,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 25
+    },
+    "C0S5_Ch24": {
+      "x": 25,
+      "y": 14,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 24
+    },
+    "C0S5_Ch4": {
+      "x": 24,
+      "y": 14,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 4
+    },
+    "C0S4_Ch4": {
+      "x": 31,
+      "y": 15,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 4
+    },
+    "C0S4_Ch1": {
+      "x": 30,
+      "y": 15,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 1
+    },
+    "C0S4_Ch15": {
+      "x": 29,
+      "y": 15,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 15
+    },
+    "C0S4_Ch5": {
+      "x": 28,
+      "y": 15,
+      "readout": 4,
+      "block": 0,
+      "slot": 4,
+      "channel": 5
+    },
+    "C0S5_Ch27": {
+      "x": 27,
+      "y": 15,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 27
+    },
+    "C0S5_Ch18": {
+      "x": 26,
+      "y": 15,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 18
+    },
+    "C0S5_Ch31": {
+      "x": 25,
+      "y": 15,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 31
+    },
+    "C0S5_Ch26": {
+      "x": 24,
+      "y": 15,
+      "readout": 5,
+      "block": 0,
+      "slot": 5,
+      "channel": 26
+    },
+    "C0S2_Ch30": {
+      "x": 31,
+      "y": 16,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 30
+    },
+    "C0S2_Ch31": {
+      "x": 30,
+      "y": 16,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 31
+    },
+    "C0S2_Ch26": {
+      "x": 29,
+      "y": 16,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 26
+    },
+    "C0S2_Ch27": {
+      "x": 28,
+      "y": 16,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 27
+    },
+    "C0S3_Ch5": {
+      "x": 27,
+      "y": 16,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 5
+    },
+    "C0S3_Ch15": {
+      "x": 26,
+      "y": 16,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 15
+    },
+    "C0S3_Ch1": {
+      "x": 25,
+      "y": 16,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 1
+    },
+    "C0S3_Ch4": {
+      "x": 24,
+      "y": 16,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 4
+    },
+    "C0S2_Ch4": {
+      "x": 31,
+      "y": 17,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 4
+    },
+    "C0S2_Ch24": {
+      "x": 30,
+      "y": 17,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 24
+    },
+    "C0S2_Ch25": {
+      "x": 29,
+      "y": 17,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 25
+    },
+    "C0S3_Ch13": {
+      "x": 28,
+      "y": 17,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 13
+    },
+    "C0S2_Ch19": {
+      "x": 27,
+      "y": 17,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 19
+    },
+    "C0S3_Ch7": {
+      "x": 26,
+      "y": 17,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 7
+    },
+    "C0S3_Ch6": {
+      "x": 25,
+      "y": 17,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 6
+    },
+    "C0S3_Ch14": {
+      "x": 24,
+      "y": 17,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 14
+    },
+    "C0S2_Ch18": {
+      "x": 31,
+      "y": 18,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 18
+    },
+    "C0S2_Ch16": {
+      "x": 30,
+      "y": 18,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 16
+    },
+    "C0S2_Ch28": {
+      "x": 29,
+      "y": 18,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 28
+    },
+    "C0S2_Ch29": {
+      "x": 28,
+      "y": 18,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 29
+    },
+    "C0S3_Ch3": {
+      "x": 27,
+      "y": 18,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 3
+    },
+    "C0S3_Ch2": {
+      "x": 26,
+      "y": 18,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 2
+    },
+    "C0S3_Ch16": {
+      "x": 25,
+      "y": 18,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 16
+    },
+    "C0S3_Ch0": {
+      "x": 24,
+      "y": 18,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 0
+    },
+    "C0S2_Ch22": {
+      "x": 31,
+      "y": 19,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 22
+    },
+    "C0S2_Ch17": {
+      "x": 30,
+      "y": 19,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 17
+    },
+    "C0S2_Ch7": {
+      "x": 29,
+      "y": 19,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 7
+    },
+    "C0S2_Ch21": {
+      "x": 28,
+      "y": 19,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 21
+    },
+    "C0S3_Ch29": {
+      "x": 27,
+      "y": 19,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 29
+    },
+    "C0S3_Ch28": {
+      "x": 26,
+      "y": 19,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 28
+    },
+    "C0S3_Ch9": {
+      "x": 25,
+      "y": 19,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 9
+    },
+    "C0S3_Ch8": {
+      "x": 24,
+      "y": 19,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 8
+    },
+    "C0S2_Ch8": {
+      "x": 31,
+      "y": 20,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 8
+    },
+    "C0S2_Ch1": {
+      "x": 30,
+      "y": 20,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 1
+    },
+    "C0S2_Ch20": {
+      "x": 29,
+      "y": 20,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 20
+    },
+    "C0S3_Ch27": {
+      "x": 28,
+      "y": 20,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 27
+    },
+    "C0S2_Ch5": {
+      "x": 27,
+      "y": 20,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 5
+    },
+    "C0S3_Ch25": {
+      "x": 26,
+      "y": 20,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 25
+    },
+    "C0S3_Ch12": {
+      "x": 25,
+      "y": 20,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 12
+    },
+    "C0S3_Ch22": {
+      "x": 24,
+      "y": 20,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 22
+    },
+    "C0S2_Ch0": {
+      "x": 31,
+      "y": 21,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 0
+    },
+    "C0S2_Ch14": {
+      "x": 30,
+      "y": 21,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 14
+    },
+    "C0S2_Ch12": {
+      "x": 29,
+      "y": 21,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 12
+    },
+    "C0S2_Ch13": {
+      "x": 28,
+      "y": 21,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 13
+    },
+    "C0S3_Ch21": {
+      "x": 27,
+      "y": 21,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 21
+    },
+    "C0S3_Ch20": {
+      "x": 26,
+      "y": 21,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 20
+    },
+    "C0S3_Ch30": {
+      "x": 25,
+      "y": 21,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 30
+    },
+    "C0S3_Ch24": {
+      "x": 24,
+      "y": 21,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 24
+    },
+    "C0S2_Ch10": {
+      "x": 31,
+      "y": 22,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 10
+    },
+    "C0S2_Ch6": {
+      "x": 30,
+      "y": 22,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 6
+    },
+    "C0S2_Ch15": {
+      "x": 29,
+      "y": 22,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 15
+    },
+    "C0S2_Ch11": {
+      "x": 28,
+      "y": 22,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 11
+    },
+    "C0S3_Ch11": {
+      "x": 27,
+      "y": 22,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 11
+    },
+    "C0S3_Ch31": {
+      "x": 26,
+      "y": 22,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 31
+    },
+    "C0S3_Ch26": {
+      "x": 25,
+      "y": 22,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 26
+    },
+    "C0S3_Ch10": {
+      "x": 24,
+      "y": 22,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 10
+    },
+    "C0S2_Ch2": {
+      "x": 31,
+      "y": 23,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 2
+    },
+    "C0S2_Ch9": {
+      "x": 30,
+      "y": 23,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 9
+    },
+    "C0S2_Ch23": {
+      "x": 29,
+      "y": 23,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 23
+    },
+    "C0S2_Ch3": {
+      "x": 28,
+      "y": 23,
+      "readout": 2,
+      "block": 0,
+      "slot": 2,
+      "channel": 3
+    },
+    "C0S3_Ch19": {
+      "x": 27,
+      "y": 23,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 19
+    },
+    "C0S3_Ch23": {
+      "x": 26,
+      "y": 23,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 23
+    },
+    "C0S3_Ch17": {
+      "x": 25,
+      "y": 23,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 17
+    },
+    "C0S3_Ch18": {
+      "x": 24,
+      "y": 23,
+      "readout": 3,
+      "block": 0,
+      "slot": 3,
+      "channel": 18
+    },
+    "C0S0_Ch30": {
+      "x": 31,
+      "y": 24,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 30
+    },
+    "C0S0_Ch31": {
+      "x": 30,
+      "y": 24,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 31
+    },
+    "C0S0_Ch26": {
+      "x": 29,
+      "y": 24,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 26
+    },
+    "C0S0_Ch27": {
+      "x": 28,
+      "y": 24,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 27
+    },
+    "C0S1_Ch5": {
+      "x": 27,
+      "y": 24,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 5
+    },
+    "C0S1_Ch15": {
+      "x": 26,
+      "y": 24,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 15
+    },
+    "C0S1_Ch1": {
+      "x": 25,
+      "y": 24,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 1
+    },
+    "C0S1_Ch4": {
+      "x": 24,
+      "y": 24,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 4
+    },
+    "C0S0_Ch4": {
+      "x": 31,
+      "y": 25,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 4
+    },
+    "C0S0_Ch24": {
+      "x": 30,
+      "y": 25,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 24
+    },
+    "C0S0_Ch25": {
+      "x": 29,
+      "y": 25,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 25
+    },
+    "C0S1_Ch13": {
+      "x": 28,
+      "y": 25,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 13
+    },
+    "C0S0_Ch19": {
+      "x": 27,
+      "y": 25,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 19
+    },
+    "C0S1_Ch7": {
+      "x": 26,
+      "y": 25,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 7
+    },
+    "C0S1_Ch6": {
+      "x": 25,
+      "y": 25,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 6
+    },
+    "C0S1_Ch14": {
+      "x": 24,
+      "y": 25,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 14
+    },
+    "C0S0_Ch18": {
+      "x": 31,
+      "y": 26,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 18
+    },
+    "C0S0_Ch16": {
+      "x": 30,
+      "y": 26,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 16
+    },
+    "C0S0_Ch28": {
+      "x": 29,
+      "y": 26,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 28
+    },
+    "C0S0_Ch29": {
+      "x": 28,
+      "y": 26,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 29
+    },
+    "C0S1_Ch3": {
+      "x": 27,
+      "y": 26,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 3
+    },
+    "C0S1_Ch2": {
+      "x": 26,
+      "y": 26,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 2
+    },
+    "C0S1_Ch16": {
+      "x": 25,
+      "y": 26,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 16
+    },
+    "C0S1_Ch0": {
+      "x": 24,
+      "y": 26,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 0
+    },
+    "C0S0_Ch22": {
+      "x": 31,
+      "y": 27,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 22
+    },
+    "C0S0_Ch17": {
+      "x": 30,
+      "y": 27,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 17
+    },
+    "C0S0_Ch7": {
+      "x": 29,
+      "y": 27,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 7
+    },
+    "C0S0_Ch21": {
+      "x": 28,
+      "y": 27,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 21
+    },
+    "C0S1_Ch29": {
+      "x": 27,
+      "y": 27,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 29
+    },
+    "C0S1_Ch28": {
+      "x": 26,
+      "y": 27,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 28
+    },
+    "C0S1_Ch9": {
+      "x": 25,
+      "y": 27,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 9
+    },
+    "C0S1_Ch8": {
+      "x": 24,
+      "y": 27,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 8
+    },
+    "C0S0_Ch8": {
+      "x": 31,
+      "y": 28,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 8
+    },
+    "C0S0_Ch1": {
+      "x": 30,
+      "y": 28,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 1
+    },
+    "C0S0_Ch20": {
+      "x": 29,
+      "y": 28,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 20
+    },
+    "C0S1_Ch27": {
+      "x": 28,
+      "y": 28,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 27
+    },
+    "C0S0_Ch5": {
+      "x": 27,
+      "y": 28,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 5
+    },
+    "C0S1_Ch25": {
+      "x": 26,
+      "y": 28,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 25
+    },
+    "C0S1_Ch12": {
+      "x": 25,
+      "y": 28,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 12
+    },
+    "C0S1_Ch22": {
+      "x": 24,
+      "y": 28,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 22
+    },
+    "C0S0_Ch0": {
+      "x": 31,
+      "y": 29,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 0
+    },
+    "C0S0_Ch14": {
+      "x": 30,
+      "y": 29,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 14
+    },
+    "C0S0_Ch12": {
+      "x": 29,
+      "y": 29,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 12
+    },
+    "C0S0_Ch13": {
+      "x": 28,
+      "y": 29,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 13
+    },
+    "C0S1_Ch21": {
+      "x": 27,
+      "y": 29,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 21
+    },
+    "C0S1_Ch20": {
+      "x": 26,
+      "y": 29,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 20
+    },
+    "C0S1_Ch30": {
+      "x": 25,
+      "y": 29,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 30
+    },
+    "C0S1_Ch24": {
+      "x": 24,
+      "y": 29,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 24
+    },
+    "C0S0_Ch10": {
+      "x": 31,
+      "y": 30,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 10
+    },
+    "C0S0_Ch6": {
+      "x": 30,
+      "y": 30,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 6
+    },
+    "C0S0_Ch15": {
+      "x": 29,
+      "y": 30,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 15
+    },
+    "C0S0_Ch11": {
+      "x": 28,
+      "y": 30,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 11
+    },
+    "C0S1_Ch11": {
+      "x": 27,
+      "y": 30,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 11
+    },
+    "C0S1_Ch31": {
+      "x": 26,
+      "y": 30,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 31
+    },
+    "C0S1_Ch26": {
+      "x": 25,
+      "y": 30,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 26
+    },
+    "C0S1_Ch10": {
+      "x": 24,
+      "y": 30,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 10
+    },
+    "C0S0_Ch2": {
+      "x": 31,
+      "y": 31,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 2
+    },
+    "C0S0_Ch9": {
+      "x": 30,
+      "y": 31,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 9
+    },
+    "C0S0_Ch23": {
+      "x": 29,
+      "y": 31,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 23
+    },
+    "C0S0_Ch3": {
+      "x": 28,
+      "y": 31,
+      "readout": 0,
+      "block": 0,
+      "slot": 0,
+      "channel": 3
+    },
+    "C0S1_Ch19": {
+      "x": 27,
+      "y": 31,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 19
+    },
+    "C0S1_Ch23": {
+      "x": 26,
+      "y": 31,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 23
+    },
+    "C0S1_Ch17": {
+      "x": 25,
+      "y": 31,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 17
+    },
+    "C0S1_Ch18": {
+      "x": 24,
+      "y": 31,
+      "readout": 1,
+      "block": 0,
+      "slot": 1,
+      "channel": 18
+    },
+    "C1S6_Ch24": {
+      "x": 23,
+      "y": 0,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 24
+    },
+    "C1S6_Ch17": {
+      "x": 22,
+      "y": 0,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 17
+    },
+    "C1S6_Ch18": {
+      "x": 21,
+      "y": 0,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 18
+    },
+    "C1S6_Ch19": {
+      "x": 20,
+      "y": 0,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 19
+    },
+    "C1S7_Ch3": {
+      "x": 19,
+      "y": 0,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 3
+    },
+    "C1S7_Ch23": {
+      "x": 18,
+      "y": 0,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 23
+    },
+    "C1S7_Ch9": {
+      "x": 17,
+      "y": 0,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 9
+    },
+    "C1S7_Ch2": {
+      "x": 16,
+      "y": 0,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 2
+    },
+    "C1S6_Ch10": {
+      "x": 23,
+      "y": 1,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 10
+    },
+    "C1S6_Ch26": {
+      "x": 22,
+      "y": 1,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 26
+    },
+    "C1S6_Ch31": {
+      "x": 21,
+      "y": 1,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 31
+    },
+    "C1S6_Ch11": {
+      "x": 20,
+      "y": 1,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 11
+    },
+    "C1S7_Ch11": {
+      "x": 19,
+      "y": 1,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 11
+    },
+    "C1S7_Ch15": {
+      "x": 18,
+      "y": 1,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 15
+    },
+    "C1S7_Ch6": {
+      "x": 17,
+      "y": 1,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 6
+    },
+    "C1S7_Ch10": {
+      "x": 16,
+      "y": 1,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 10
+    },
+    "C1S6_Ch23": {
+      "x": 23,
+      "y": 2,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 23
+    },
+    "C1S6_Ch30": {
+      "x": 22,
+      "y": 2,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 30
+    },
+    "C1S6_Ch20": {
+      "x": 21,
+      "y": 2,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 20
+    },
+    "C1S6_Ch21": {
+      "x": 20,
+      "y": 2,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 21
+    },
+    "C1S7_Ch13": {
+      "x": 19,
+      "y": 2,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 13
+    },
+    "C1S7_Ch12": {
+      "x": 18,
+      "y": 2,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 12
+    },
+    "C1S7_Ch14": {
+      "x": 17,
+      "y": 2,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 14
+    },
+    "C1S7_Ch0": {
+      "x": 16,
+      "y": 2,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 0
+    },
+    "C1S6_Ch8": {
+      "x": 23,
+      "y": 3,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 8
+    },
+    "C1S6_Ch12": {
+      "x": 22,
+      "y": 3,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 12
+    },
+    "C1S6_Ch25": {
+      "x": 21,
+      "y": 3,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 25
+    },
+    "C1S7_Ch5": {
+      "x": 20,
+      "y": 3,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 5
+    },
+    "C1S6_Ch27": {
+      "x": 19,
+      "y": 3,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 27
+    },
+    "C1S7_Ch20": {
+      "x": 18,
+      "y": 3,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 20
+    },
+    "C1S7_Ch1": {
+      "x": 17,
+      "y": 3,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 1
+    },
+    "C1S7_Ch8": {
+      "x": 16,
+      "y": 3,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 8
+    },
+    "C1S6_Ch22": {
+      "x": 23,
+      "y": 4,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 22
+    },
+    "C1S6_Ch9": {
+      "x": 22,
+      "y": 4,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 9
+    },
+    "C1S6_Ch28": {
+      "x": 21,
+      "y": 4,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 28
+    },
+    "C1S6_Ch29": {
+      "x": 20,
+      "y": 4,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 29
+    },
+    "C1S7_Ch21": {
+      "x": 19,
+      "y": 4,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 21
+    },
+    "C1S7_Ch7": {
+      "x": 18,
+      "y": 4,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 7
+    },
+    "C1S7_Ch17": {
+      "x": 17,
+      "y": 4,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 17
+    },
+    "C1S7_Ch22": {
+      "x": 16,
+      "y": 4,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 22
+    },
+    "C1S6_Ch0": {
+      "x": 23,
+      "y": 5,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 0
+    },
+    "C1S6_Ch16": {
+      "x": 22,
+      "y": 5,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 16
+    },
+    "C1S6_Ch2": {
+      "x": 21,
+      "y": 5,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 2
+    },
+    "C1S6_Ch3": {
+      "x": 20,
+      "y": 5,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 3
+    },
+    "C1S7_Ch29": {
+      "x": 19,
+      "y": 5,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 29
+    },
+    "C1S7_Ch28": {
+      "x": 18,
+      "y": 5,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 28
+    },
+    "C1S7_Ch16": {
+      "x": 17,
+      "y": 5,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 16
+    },
+    "C1S7_Ch30": {
+      "x": 16,
+      "y": 5,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 30
+    },
+    "C1S6_Ch14": {
+      "x": 23,
+      "y": 6,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 14
+    },
+    "C1S6_Ch6": {
+      "x": 22,
+      "y": 6,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 6
+    },
+    "C1S6_Ch7": {
+      "x": 21,
+      "y": 6,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 7
+    },
+    "C1S7_Ch19": {
+      "x": 20,
+      "y": 6,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 19
+    },
+    "C1S6_Ch13": {
+      "x": 19,
+      "y": 6,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 13
+    },
+    "C1S7_Ch25": {
+      "x": 18,
+      "y": 6,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 25
+    },
+    "C1S7_Ch24": {
+      "x": 17,
+      "y": 6,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 24
+    },
+    "C1S7_Ch4": {
+      "x": 16,
+      "y": 6,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 4
+    },
+    "C1S6_Ch4": {
+      "x": 23,
+      "y": 7,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 4
+    },
+    "C1S6_Ch1": {
+      "x": 22,
+      "y": 7,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 1
+    },
+    "C1S6_Ch15": {
+      "x": 21,
+      "y": 7,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 15
+    },
+    "C1S6_Ch5": {
+      "x": 20,
+      "y": 7,
+      "readout": 14,
+      "block": 1,
+      "slot": 6,
+      "channel": 5
+    },
+    "C1S7_Ch27": {
+      "x": 19,
+      "y": 7,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 27
+    },
+    "C1S7_Ch18": {
+      "x": 18,
+      "y": 7,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 18
+    },
+    "C1S7_Ch31": {
+      "x": 17,
+      "y": 7,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 31
+    },
+    "C1S7_Ch26": {
+      "x": 16,
+      "y": 7,
+      "readout": 15,
+      "block": 1,
+      "slot": 7,
+      "channel": 26
+    },
+    "C1S4_Ch24": {
+      "x": 23,
+      "y": 8,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 24
+    },
+    "C1S4_Ch17": {
+      "x": 22,
+      "y": 8,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 17
+    },
+    "C1S4_Ch18": {
+      "x": 21,
+      "y": 8,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 18
+    },
+    "C1S4_Ch19": {
+      "x": 20,
+      "y": 8,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 19
+    },
+    "C1S5_Ch3": {
+      "x": 19,
+      "y": 8,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 3
+    },
+    "C1S5_Ch23": {
+      "x": 18,
+      "y": 8,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 23
+    },
+    "C1S5_Ch9": {
+      "x": 17,
+      "y": 8,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 9
+    },
+    "C1S5_Ch2": {
+      "x": 16,
+      "y": 8,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 2
+    },
+    "C1S4_Ch10": {
+      "x": 23,
+      "y": 9,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 10
+    },
+    "C1S4_Ch26": {
+      "x": 22,
+      "y": 9,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 26
+    },
+    "C1S4_Ch31": {
+      "x": 21,
+      "y": 9,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 31
+    },
+    "C1S4_Ch11": {
+      "x": 20,
+      "y": 9,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 11
+    },
+    "C1S5_Ch11": {
+      "x": 19,
+      "y": 9,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 11
+    },
+    "C1S5_Ch15": {
+      "x": 18,
+      "y": 9,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 15
+    },
+    "C1S5_Ch6": {
+      "x": 17,
+      "y": 9,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 6
+    },
+    "C1S5_Ch10": {
+      "x": 16,
+      "y": 9,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 10
+    },
+    "C1S4_Ch23": {
+      "x": 23,
+      "y": 10,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 23
+    },
+    "C1S4_Ch30": {
+      "x": 22,
+      "y": 10,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 30
+    },
+    "C1S4_Ch20": {
+      "x": 21,
+      "y": 10,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 20
+    },
+    "C1S4_Ch21": {
+      "x": 20,
+      "y": 10,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 21
+    },
+    "C1S5_Ch13": {
+      "x": 19,
+      "y": 10,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 13
+    },
+    "C1S5_Ch12": {
+      "x": 18,
+      "y": 10,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 12
+    },
+    "C1S5_Ch14": {
+      "x": 17,
+      "y": 10,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 14
+    },
+    "C1S5_Ch0": {
+      "x": 16,
+      "y": 10,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 0
+    },
+    "C1S4_Ch8": {
+      "x": 23,
+      "y": 11,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 8
+    },
+    "C1S4_Ch12": {
+      "x": 22,
+      "y": 11,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 12
+    },
+    "C1S4_Ch25": {
+      "x": 21,
+      "y": 11,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 25
+    },
+    "C1S5_Ch5": {
+      "x": 20,
+      "y": 11,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 5
+    },
+    "C1S4_Ch27": {
+      "x": 19,
+      "y": 11,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 27
+    },
+    "C1S5_Ch20": {
+      "x": 18,
+      "y": 11,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 20
+    },
+    "C1S5_Ch1": {
+      "x": 17,
+      "y": 11,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 1
+    },
+    "C1S5_Ch8": {
+      "x": 16,
+      "y": 11,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 8
+    },
+    "C1S4_Ch22": {
+      "x": 23,
+      "y": 12,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 22
+    },
+    "C1S4_Ch9": {
+      "x": 22,
+      "y": 12,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 9
+    },
+    "C1S4_Ch28": {
+      "x": 21,
+      "y": 12,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 28
+    },
+    "C1S4_Ch29": {
+      "x": 20,
+      "y": 12,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 29
+    },
+    "C1S5_Ch21": {
+      "x": 19,
+      "y": 12,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 21
+    },
+    "C1S5_Ch7": {
+      "x": 18,
+      "y": 12,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 7
+    },
+    "C1S5_Ch17": {
+      "x": 17,
+      "y": 12,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 17
+    },
+    "C1S5_Ch22": {
+      "x": 16,
+      "y": 12,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 22
+    },
+    "C1S4_Ch0": {
+      "x": 23,
+      "y": 13,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 0
+    },
+    "C1S4_Ch16": {
+      "x": 22,
+      "y": 13,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 16
+    },
+    "C1S4_Ch2": {
+      "x": 21,
+      "y": 13,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 2
+    },
+    "C1S4_Ch3": {
+      "x": 20,
+      "y": 13,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 3
+    },
+    "C1S5_Ch29": {
+      "x": 19,
+      "y": 13,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 29
+    },
+    "C1S5_Ch28": {
+      "x": 18,
+      "y": 13,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 28
+    },
+    "C1S5_Ch16": {
+      "x": 17,
+      "y": 13,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 16
+    },
+    "C1S5_Ch30": {
+      "x": 16,
+      "y": 13,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 30
+    },
+    "C1S4_Ch14": {
+      "x": 23,
+      "y": 14,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 14
+    },
+    "C1S4_Ch6": {
+      "x": 22,
+      "y": 14,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 6
+    },
+    "C1S4_Ch7": {
+      "x": 21,
+      "y": 14,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 7
+    },
+    "C1S5_Ch19": {
+      "x": 20,
+      "y": 14,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 19
+    },
+    "C1S4_Ch13": {
+      "x": 19,
+      "y": 14,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 13
+    },
+    "C1S5_Ch25": {
+      "x": 18,
+      "y": 14,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 25
+    },
+    "C1S5_Ch24": {
+      "x": 17,
+      "y": 14,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 24
+    },
+    "C1S5_Ch4": {
+      "x": 16,
+      "y": 14,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 4
+    },
+    "C1S4_Ch4": {
+      "x": 23,
+      "y": 15,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 4
+    },
+    "C1S4_Ch1": {
+      "x": 22,
+      "y": 15,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 1
+    },
+    "C1S4_Ch15": {
+      "x": 21,
+      "y": 15,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 15
+    },
+    "C1S4_Ch5": {
+      "x": 20,
+      "y": 15,
+      "readout": 12,
+      "block": 1,
+      "slot": 4,
+      "channel": 5
+    },
+    "C1S5_Ch27": {
+      "x": 19,
+      "y": 15,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 27
+    },
+    "C1S5_Ch18": {
+      "x": 18,
+      "y": 15,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 18
+    },
+    "C1S5_Ch31": {
+      "x": 17,
+      "y": 15,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 31
+    },
+    "C1S5_Ch26": {
+      "x": 16,
+      "y": 15,
+      "readout": 13,
+      "block": 1,
+      "slot": 5,
+      "channel": 26
+    },
+    "C1S2_Ch30": {
+      "x": 23,
+      "y": 16,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 30
+    },
+    "C1S2_Ch31": {
+      "x": 22,
+      "y": 16,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 31
+    },
+    "C1S2_Ch26": {
+      "x": 21,
+      "y": 16,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 26
+    },
+    "C1S2_Ch27": {
+      "x": 20,
+      "y": 16,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 27
+    },
+    "C1S3_Ch5": {
+      "x": 19,
+      "y": 16,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 5
+    },
+    "C1S3_Ch15": {
+      "x": 18,
+      "y": 16,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 15
+    },
+    "C1S3_Ch1": {
+      "x": 17,
+      "y": 16,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 1
+    },
+    "C1S3_Ch4": {
+      "x": 16,
+      "y": 16,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 4
+    },
+    "C1S2_Ch4": {
+      "x": 23,
+      "y": 17,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 4
+    },
+    "C1S2_Ch24": {
+      "x": 22,
+      "y": 17,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 24
+    },
+    "C1S2_Ch25": {
+      "x": 21,
+      "y": 17,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 25
+    },
+    "C1S3_Ch13": {
+      "x": 20,
+      "y": 17,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 13
+    },
+    "C1S2_Ch19": {
+      "x": 19,
+      "y": 17,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 19
+    },
+    "C1S3_Ch7": {
+      "x": 18,
+      "y": 17,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 7
+    },
+    "C1S3_Ch6": {
+      "x": 17,
+      "y": 17,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 6
+    },
+    "C1S3_Ch14": {
+      "x": 16,
+      "y": 17,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 14
+    },
+    "C1S2_Ch18": {
+      "x": 23,
+      "y": 18,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 18
+    },
+    "C1S2_Ch16": {
+      "x": 22,
+      "y": 18,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 16
+    },
+    "C1S2_Ch28": {
+      "x": 21,
+      "y": 18,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 28
+    },
+    "C1S2_Ch29": {
+      "x": 20,
+      "y": 18,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 29
+    },
+    "C1S3_Ch3": {
+      "x": 19,
+      "y": 18,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 3
+    },
+    "C1S3_Ch2": {
+      "x": 18,
+      "y": 18,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 2
+    },
+    "C1S3_Ch16": {
+      "x": 17,
+      "y": 18,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 16
+    },
+    "C1S3_Ch0": {
+      "x": 16,
+      "y": 18,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 0
+    },
+    "C1S2_Ch22": {
+      "x": 23,
+      "y": 19,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 22
+    },
+    "C1S2_Ch17": {
+      "x": 22,
+      "y": 19,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 17
+    },
+    "C1S2_Ch7": {
+      "x": 21,
+      "y": 19,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 7
+    },
+    "C1S2_Ch21": {
+      "x": 20,
+      "y": 19,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 21
+    },
+    "C1S3_Ch29": {
+      "x": 19,
+      "y": 19,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 29
+    },
+    "C1S3_Ch28": {
+      "x": 18,
+      "y": 19,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 28
+    },
+    "C1S3_Ch9": {
+      "x": 17,
+      "y": 19,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 9
+    },
+    "C1S3_Ch8": {
+      "x": 16,
+      "y": 19,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 8
+    },
+    "C1S2_Ch8": {
+      "x": 23,
+      "y": 20,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 8
+    },
+    "C1S2_Ch1": {
+      "x": 22,
+      "y": 20,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 1
+    },
+    "C1S2_Ch20": {
+      "x": 21,
+      "y": 20,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 20
+    },
+    "C1S3_Ch27": {
+      "x": 20,
+      "y": 20,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 27
+    },
+    "C1S2_Ch5": {
+      "x": 19,
+      "y": 20,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 5
+    },
+    "C1S3_Ch25": {
+      "x": 18,
+      "y": 20,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 25
+    },
+    "C1S3_Ch12": {
+      "x": 17,
+      "y": 20,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 12
+    },
+    "C1S3_Ch22": {
+      "x": 16,
+      "y": 20,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 22
+    },
+    "C1S2_Ch0": {
+      "x": 23,
+      "y": 21,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 0
+    },
+    "C1S2_Ch14": {
+      "x": 22,
+      "y": 21,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 14
+    },
+    "C1S2_Ch12": {
+      "x": 21,
+      "y": 21,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 12
+    },
+    "C1S2_Ch13": {
+      "x": 20,
+      "y": 21,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 13
+    },
+    "C1S3_Ch21": {
+      "x": 19,
+      "y": 21,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 21
+    },
+    "C1S3_Ch20": {
+      "x": 18,
+      "y": 21,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 20
+    },
+    "C1S3_Ch30": {
+      "x": 17,
+      "y": 21,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 30
+    },
+    "C1S3_Ch24": {
+      "x": 16,
+      "y": 21,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 24
+    },
+    "C1S2_Ch10": {
+      "x": 23,
+      "y": 22,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 10
+    },
+    "C1S2_Ch6": {
+      "x": 22,
+      "y": 22,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 6
+    },
+    "C1S2_Ch15": {
+      "x": 21,
+      "y": 22,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 15
+    },
+    "C1S2_Ch11": {
+      "x": 20,
+      "y": 22,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 11
+    },
+    "C1S3_Ch11": {
+      "x": 19,
+      "y": 22,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 11
+    },
+    "C1S3_Ch31": {
+      "x": 18,
+      "y": 22,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 31
+    },
+    "C1S3_Ch26": {
+      "x": 17,
+      "y": 22,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 26
+    },
+    "C1S3_Ch10": {
+      "x": 16,
+      "y": 22,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 10
+    },
+    "C1S2_Ch2": {
+      "x": 23,
+      "y": 23,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 2
+    },
+    "C1S2_Ch9": {
+      "x": 22,
+      "y": 23,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 9
+    },
+    "C1S2_Ch23": {
+      "x": 21,
+      "y": 23,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 23
+    },
+    "C1S2_Ch3": {
+      "x": 20,
+      "y": 23,
+      "readout": 10,
+      "block": 1,
+      "slot": 2,
+      "channel": 3
+    },
+    "C1S3_Ch19": {
+      "x": 19,
+      "y": 23,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 19
+    },
+    "C1S3_Ch23": {
+      "x": 18,
+      "y": 23,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 23
+    },
+    "C1S3_Ch17": {
+      "x": 17,
+      "y": 23,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 17
+    },
+    "C1S3_Ch18": {
+      "x": 16,
+      "y": 23,
+      "readout": 11,
+      "block": 1,
+      "slot": 3,
+      "channel": 18
+    },
+    "C1S0_Ch30": {
+      "x": 23,
+      "y": 24,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 30
+    },
+    "C1S0_Ch31": {
+      "x": 22,
+      "y": 24,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 31
+    },
+    "C1S0_Ch26": {
+      "x": 21,
+      "y": 24,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 26
+    },
+    "C1S0_Ch27": {
+      "x": 20,
+      "y": 24,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 27
+    },
+    "C1S1_Ch5": {
+      "x": 19,
+      "y": 24,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 5
+    },
+    "C1S1_Ch15": {
+      "x": 18,
+      "y": 24,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 15
+    },
+    "C1S1_Ch1": {
+      "x": 17,
+      "y": 24,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 1
+    },
+    "C1S1_Ch4": {
+      "x": 16,
+      "y": 24,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 4
+    },
+    "C1S0_Ch4": {
+      "x": 23,
+      "y": 25,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 4
+    },
+    "C1S0_Ch24": {
+      "x": 22,
+      "y": 25,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 24
+    },
+    "C1S0_Ch25": {
+      "x": 21,
+      "y": 25,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 25
+    },
+    "C1S1_Ch13": {
+      "x": 20,
+      "y": 25,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 13
+    },
+    "C1S0_Ch19": {
+      "x": 19,
+      "y": 25,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 19
+    },
+    "C1S1_Ch7": {
+      "x": 18,
+      "y": 25,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 7
+    },
+    "C1S1_Ch6": {
+      "x": 17,
+      "y": 25,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 6
+    },
+    "C1S1_Ch14": {
+      "x": 16,
+      "y": 25,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 14
+    },
+    "C1S0_Ch18": {
+      "x": 23,
+      "y": 26,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 18
+    },
+    "C1S0_Ch16": {
+      "x": 22,
+      "y": 26,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 16
+    },
+    "C1S0_Ch28": {
+      "x": 21,
+      "y": 26,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 28
+    },
+    "C1S0_Ch29": {
+      "x": 20,
+      "y": 26,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 29
+    },
+    "C1S1_Ch3": {
+      "x": 19,
+      "y": 26,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 3
+    },
+    "C1S1_Ch2": {
+      "x": 18,
+      "y": 26,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 2
+    },
+    "C1S1_Ch16": {
+      "x": 17,
+      "y": 26,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 16
+    },
+    "C1S1_Ch0": {
+      "x": 16,
+      "y": 26,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 0
+    },
+    "C1S0_Ch22": {
+      "x": 23,
+      "y": 27,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 22
+    },
+    "C1S0_Ch17": {
+      "x": 22,
+      "y": 27,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 17
+    },
+    "C1S0_Ch7": {
+      "x": 21,
+      "y": 27,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 7
+    },
+    "C1S0_Ch21": {
+      "x": 20,
+      "y": 27,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 21
+    },
+    "C1S1_Ch29": {
+      "x": 19,
+      "y": 27,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 29
+    },
+    "C1S1_Ch28": {
+      "x": 18,
+      "y": 27,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 28
+    },
+    "C1S1_Ch9": {
+      "x": 17,
+      "y": 27,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 9
+    },
+    "C1S1_Ch8": {
+      "x": 16,
+      "y": 27,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 8
+    },
+    "C1S0_Ch8": {
+      "x": 23,
+      "y": 28,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 8
+    },
+    "C1S0_Ch1": {
+      "x": 22,
+      "y": 28,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 1
+    },
+    "C1S0_Ch20": {
+      "x": 21,
+      "y": 28,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 20
+    },
+    "C1S1_Ch27": {
+      "x": 20,
+      "y": 28,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 27
+    },
+    "C1S0_Ch5": {
+      "x": 19,
+      "y": 28,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 5
+    },
+    "C1S1_Ch25": {
+      "x": 18,
+      "y": 28,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 25
+    },
+    "C1S1_Ch12": {
+      "x": 17,
+      "y": 28,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 12
+    },
+    "C1S1_Ch22": {
+      "x": 16,
+      "y": 28,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 22
+    },
+    "C1S0_Ch0": {
+      "x": 23,
+      "y": 29,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 0
+    },
+    "C1S0_Ch14": {
+      "x": 22,
+      "y": 29,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 14
+    },
+    "C1S0_Ch12": {
+      "x": 21,
+      "y": 29,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 12
+    },
+    "C1S0_Ch13": {
+      "x": 20,
+      "y": 29,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 13
+    },
+    "C1S1_Ch21": {
+      "x": 19,
+      "y": 29,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 21
+    },
+    "C1S1_Ch20": {
+      "x": 18,
+      "y": 29,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 20
+    },
+    "C1S1_Ch30": {
+      "x": 17,
+      "y": 29,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 30
+    },
+    "C1S1_Ch24": {
+      "x": 16,
+      "y": 29,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 24
+    },
+    "C1S0_Ch10": {
+      "x": 23,
+      "y": 30,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 10
+    },
+    "C1S0_Ch6": {
+      "x": 22,
+      "y": 30,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 6
+    },
+    "C1S0_Ch15": {
+      "x": 21,
+      "y": 30,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 15
+    },
+    "C1S0_Ch11": {
+      "x": 20,
+      "y": 30,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 11
+    },
+    "C1S1_Ch11": {
+      "x": 19,
+      "y": 30,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 11
+    },
+    "C1S1_Ch31": {
+      "x": 18,
+      "y": 30,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 31
+    },
+    "C1S1_Ch26": {
+      "x": 17,
+      "y": 30,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 26
+    },
+    "C1S1_Ch10": {
+      "x": 16,
+      "y": 30,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 10
+    },
+    "C1S0_Ch2": {
+      "x": 23,
+      "y": 31,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 2
+    },
+    "C1S0_Ch9": {
+      "x": 22,
+      "y": 31,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 9
+    },
+    "C1S0_Ch23": {
+      "x": 21,
+      "y": 31,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 23
+    },
+    "C1S0_Ch3": {
+      "x": 20,
+      "y": 31,
+      "readout": 8,
+      "block": 1,
+      "slot": 0,
+      "channel": 3
+    },
+    "C1S1_Ch19": {
+      "x": 19,
+      "y": 31,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 19
+    },
+    "C1S1_Ch23": {
+      "x": 18,
+      "y": 31,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 23
+    },
+    "C1S1_Ch17": {
+      "x": 17,
+      "y": 31,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 17
+    },
+    "C1S1_Ch18": {
+      "x": 16,
+      "y": 31,
+      "readout": 9,
+      "block": 1,
+      "slot": 1,
+      "channel": 18
+    },
+    "C2S6_Ch24": {
+      "x": 15,
+      "y": 0,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 24
+    },
+    "C2S6_Ch17": {
+      "x": 14,
+      "y": 0,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 17
+    },
+    "C2S6_Ch18": {
+      "x": 13,
+      "y": 0,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 18
+    },
+    "C2S6_Ch19": {
+      "x": 12,
+      "y": 0,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 19
+    },
+    "C2S7_Ch3": {
+      "x": 11,
+      "y": 0,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 3
+    },
+    "C2S7_Ch23": {
+      "x": 10,
+      "y": 0,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 23
+    },
+    "C2S7_Ch9": {
+      "x": 9,
+      "y": 0,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 9
+    },
+    "C2S7_Ch2": {
+      "x": 8,
+      "y": 0,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 2
+    },
+    "C2S6_Ch10": {
+      "x": 15,
+      "y": 1,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 10
+    },
+    "C2S6_Ch26": {
+      "x": 14,
+      "y": 1,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 26
+    },
+    "C2S6_Ch31": {
+      "x": 13,
+      "y": 1,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 31
+    },
+    "C2S6_Ch11": {
+      "x": 12,
+      "y": 1,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 11
+    },
+    "C2S7_Ch11": {
+      "x": 11,
+      "y": 1,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 11
+    },
+    "C2S7_Ch15": {
+      "x": 10,
+      "y": 1,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 15
+    },
+    "C2S7_Ch6": {
+      "x": 9,
+      "y": 1,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 6
+    },
+    "C2S7_Ch10": {
+      "x": 8,
+      "y": 1,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 10
+    },
+    "C2S6_Ch23": {
+      "x": 15,
+      "y": 2,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 23
+    },
+    "C2S6_Ch30": {
+      "x": 14,
+      "y": 2,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 30
+    },
+    "C2S6_Ch20": {
+      "x": 13,
+      "y": 2,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 20
+    },
+    "C2S6_Ch21": {
+      "x": 12,
+      "y": 2,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 21
+    },
+    "C2S7_Ch13": {
+      "x": 11,
+      "y": 2,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 13
+    },
+    "C2S7_Ch12": {
+      "x": 10,
+      "y": 2,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 12
+    },
+    "C2S7_Ch14": {
+      "x": 9,
+      "y": 2,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 14
+    },
+    "C2S7_Ch0": {
+      "x": 8,
+      "y": 2,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 0
+    },
+    "C2S6_Ch8": {
+      "x": 15,
+      "y": 3,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 8
+    },
+    "C2S6_Ch12": {
+      "x": 14,
+      "y": 3,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 12
+    },
+    "C2S6_Ch25": {
+      "x": 13,
+      "y": 3,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 25
+    },
+    "C2S7_Ch5": {
+      "x": 12,
+      "y": 3,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 5
+    },
+    "C2S6_Ch27": {
+      "x": 11,
+      "y": 3,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 27
+    },
+    "C2S7_Ch20": {
+      "x": 10,
+      "y": 3,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 20
+    },
+    "C2S7_Ch1": {
+      "x": 9,
+      "y": 3,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 1
+    },
+    "C2S7_Ch8": {
+      "x": 8,
+      "y": 3,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 8
+    },
+    "C2S6_Ch22": {
+      "x": 15,
+      "y": 4,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 22
+    },
+    "C2S6_Ch9": {
+      "x": 14,
+      "y": 4,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 9
+    },
+    "C2S6_Ch28": {
+      "x": 13,
+      "y": 4,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 28
+    },
+    "C2S6_Ch29": {
+      "x": 12,
+      "y": 4,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 29
+    },
+    "C2S7_Ch21": {
+      "x": 11,
+      "y": 4,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 21
+    },
+    "C2S7_Ch7": {
+      "x": 10,
+      "y": 4,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 7
+    },
+    "C2S7_Ch17": {
+      "x": 9,
+      "y": 4,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 17
+    },
+    "C2S7_Ch22": {
+      "x": 8,
+      "y": 4,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 22
+    },
+    "C2S6_Ch0": {
+      "x": 15,
+      "y": 5,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 0
+    },
+    "C2S6_Ch16": {
+      "x": 14,
+      "y": 5,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 16
+    },
+    "C2S6_Ch2": {
+      "x": 13,
+      "y": 5,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 2
+    },
+    "C2S6_Ch3": {
+      "x": 12,
+      "y": 5,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 3
+    },
+    "C2S7_Ch29": {
+      "x": 11,
+      "y": 5,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 29
+    },
+    "C2S7_Ch28": {
+      "x": 10,
+      "y": 5,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 28
+    },
+    "C2S7_Ch16": {
+      "x": 9,
+      "y": 5,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 16
+    },
+    "C2S7_Ch30": {
+      "x": 8,
+      "y": 5,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 30
+    },
+    "C2S6_Ch14": {
+      "x": 15,
+      "y": 6,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 14
+    },
+    "C2S6_Ch6": {
+      "x": 14,
+      "y": 6,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 6
+    },
+    "C2S6_Ch7": {
+      "x": 13,
+      "y": 6,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 7
+    },
+    "C2S7_Ch19": {
+      "x": 12,
+      "y": 6,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 19
+    },
+    "C2S6_Ch13": {
+      "x": 11,
+      "y": 6,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 13
+    },
+    "C2S7_Ch25": {
+      "x": 10,
+      "y": 6,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 25
+    },
+    "C2S7_Ch24": {
+      "x": 9,
+      "y": 6,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 24
+    },
+    "C2S7_Ch4": {
+      "x": 8,
+      "y": 6,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 4
+    },
+    "C2S6_Ch4": {
+      "x": 15,
+      "y": 7,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 4
+    },
+    "C2S6_Ch1": {
+      "x": 14,
+      "y": 7,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 1
+    },
+    "C2S6_Ch15": {
+      "x": 13,
+      "y": 7,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 15
+    },
+    "C2S6_Ch5": {
+      "x": 12,
+      "y": 7,
+      "readout": 22,
+      "block": 2,
+      "slot": 6,
+      "channel": 5
+    },
+    "C2S7_Ch27": {
+      "x": 11,
+      "y": 7,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 27
+    },
+    "C2S7_Ch18": {
+      "x": 10,
+      "y": 7,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 18
+    },
+    "C2S7_Ch31": {
+      "x": 9,
+      "y": 7,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 31
+    },
+    "C2S7_Ch26": {
+      "x": 8,
+      "y": 7,
+      "readout": 23,
+      "block": 2,
+      "slot": 7,
+      "channel": 26
+    },
+    "C2S4_Ch24": {
+      "x": 15,
+      "y": 8,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 24
+    },
+    "C2S4_Ch17": {
+      "x": 14,
+      "y": 8,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 17
+    },
+    "C2S4_Ch18": {
+      "x": 13,
+      "y": 8,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 18
+    },
+    "C2S4_Ch19": {
+      "x": 12,
+      "y": 8,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 19
+    },
+    "C2S5_Ch3": {
+      "x": 11,
+      "y": 8,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 3
+    },
+    "C2S5_Ch23": {
+      "x": 10,
+      "y": 8,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 23
+    },
+    "C2S5_Ch9": {
+      "x": 9,
+      "y": 8,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 9
+    },
+    "C2S5_Ch2": {
+      "x": 8,
+      "y": 8,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 2
+    },
+    "C2S4_Ch10": {
+      "x": 15,
+      "y": 9,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 10
+    },
+    "C2S4_Ch26": {
+      "x": 14,
+      "y": 9,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 26
+    },
+    "C2S4_Ch31": {
+      "x": 13,
+      "y": 9,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 31
+    },
+    "C2S4_Ch11": {
+      "x": 12,
+      "y": 9,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 11
+    },
+    "C2S5_Ch11": {
+      "x": 11,
+      "y": 9,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 11
+    },
+    "C2S5_Ch15": {
+      "x": 10,
+      "y": 9,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 15
+    },
+    "C2S5_Ch6": {
+      "x": 9,
+      "y": 9,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 6
+    },
+    "C2S5_Ch10": {
+      "x": 8,
+      "y": 9,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 10
+    },
+    "C2S4_Ch23": {
+      "x": 15,
+      "y": 10,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 23
+    },
+    "C2S4_Ch30": {
+      "x": 14,
+      "y": 10,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 30
+    },
+    "C2S4_Ch20": {
+      "x": 13,
+      "y": 10,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 20
+    },
+    "C2S4_Ch21": {
+      "x": 12,
+      "y": 10,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 21
+    },
+    "C2S5_Ch13": {
+      "x": 11,
+      "y": 10,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 13
+    },
+    "C2S5_Ch12": {
+      "x": 10,
+      "y": 10,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 12
+    },
+    "C2S5_Ch14": {
+      "x": 9,
+      "y": 10,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 14
+    },
+    "C2S5_Ch0": {
+      "x": 8,
+      "y": 10,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 0
+    },
+    "C2S4_Ch8": {
+      "x": 15,
+      "y": 11,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 8
+    },
+    "C2S4_Ch12": {
+      "x": 14,
+      "y": 11,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 12
+    },
+    "C2S4_Ch25": {
+      "x": 13,
+      "y": 11,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 25
+    },
+    "C2S5_Ch5": {
+      "x": 12,
+      "y": 11,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 5
+    },
+    "C2S4_Ch27": {
+      "x": 11,
+      "y": 11,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 27
+    },
+    "C2S5_Ch20": {
+      "x": 10,
+      "y": 11,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 20
+    },
+    "C2S5_Ch1": {
+      "x": 9,
+      "y": 11,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 1
+    },
+    "C2S5_Ch8": {
+      "x": 8,
+      "y": 11,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 8
+    },
+    "C2S4_Ch22": {
+      "x": 15,
+      "y": 12,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 22
+    },
+    "C2S4_Ch9": {
+      "x": 14,
+      "y": 12,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 9
+    },
+    "C2S4_Ch28": {
+      "x": 13,
+      "y": 12,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 28
+    },
+    "C2S4_Ch29": {
+      "x": 12,
+      "y": 12,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 29
+    },
+    "C2S5_Ch21": {
+      "x": 11,
+      "y": 12,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 21
+    },
+    "C2S5_Ch7": {
+      "x": 10,
+      "y": 12,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 7
+    },
+    "C2S5_Ch17": {
+      "x": 9,
+      "y": 12,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 17
+    },
+    "C2S5_Ch22": {
+      "x": 8,
+      "y": 12,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 22
+    },
+    "C2S4_Ch0": {
+      "x": 15,
+      "y": 13,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 0
+    },
+    "C2S4_Ch16": {
+      "x": 14,
+      "y": 13,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 16
+    },
+    "C2S4_Ch2": {
+      "x": 13,
+      "y": 13,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 2
+    },
+    "C2S4_Ch3": {
+      "x": 12,
+      "y": 13,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 3
+    },
+    "C2S5_Ch29": {
+      "x": 11,
+      "y": 13,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 29
+    },
+    "C2S5_Ch28": {
+      "x": 10,
+      "y": 13,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 28
+    },
+    "C2S5_Ch16": {
+      "x": 9,
+      "y": 13,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 16
+    },
+    "C2S5_Ch30": {
+      "x": 8,
+      "y": 13,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 30
+    },
+    "C2S4_Ch14": {
+      "x": 15,
+      "y": 14,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 14
+    },
+    "C2S4_Ch6": {
+      "x": 14,
+      "y": 14,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 6
+    },
+    "C2S4_Ch7": {
+      "x": 13,
+      "y": 14,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 7
+    },
+    "C2S5_Ch19": {
+      "x": 12,
+      "y": 14,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 19
+    },
+    "C2S4_Ch13": {
+      "x": 11,
+      "y": 14,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 13
+    },
+    "C2S5_Ch25": {
+      "x": 10,
+      "y": 14,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 25
+    },
+    "C2S5_Ch24": {
+      "x": 9,
+      "y": 14,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 24
+    },
+    "C2S5_Ch4": {
+      "x": 8,
+      "y": 14,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 4
+    },
+    "C2S4_Ch4": {
+      "x": 15,
+      "y": 15,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 4
+    },
+    "C2S4_Ch1": {
+      "x": 14,
+      "y": 15,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 1
+    },
+    "C2S4_Ch15": {
+      "x": 13,
+      "y": 15,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 15
+    },
+    "C2S4_Ch5": {
+      "x": 12,
+      "y": 15,
+      "readout": 20,
+      "block": 2,
+      "slot": 4,
+      "channel": 5
+    },
+    "C2S5_Ch27": {
+      "x": 11,
+      "y": 15,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 27
+    },
+    "C2S5_Ch18": {
+      "x": 10,
+      "y": 15,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 18
+    },
+    "C2S5_Ch31": {
+      "x": 9,
+      "y": 15,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 31
+    },
+    "C2S5_Ch26": {
+      "x": 8,
+      "y": 15,
+      "readout": 21,
+      "block": 2,
+      "slot": 5,
+      "channel": 26
+    },
+    "C2S2_Ch30": {
+      "x": 15,
+      "y": 16,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 30
+    },
+    "C2S2_Ch31": {
+      "x": 14,
+      "y": 16,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 31
+    },
+    "C2S2_Ch26": {
+      "x": 13,
+      "y": 16,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 26
+    },
+    "C2S2_Ch27": {
+      "x": 12,
+      "y": 16,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 27
+    },
+    "C2S3_Ch5": {
+      "x": 11,
+      "y": 16,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 5
+    },
+    "C2S3_Ch15": {
+      "x": 10,
+      "y": 16,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 15
+    },
+    "C2S3_Ch1": {
+      "x": 9,
+      "y": 16,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 1
+    },
+    "C2S3_Ch4": {
+      "x": 8,
+      "y": 16,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 4
+    },
+    "C2S2_Ch4": {
+      "x": 15,
+      "y": 17,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 4
+    },
+    "C2S2_Ch24": {
+      "x": 14,
+      "y": 17,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 24
+    },
+    "C2S2_Ch25": {
+      "x": 13,
+      "y": 17,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 25
+    },
+    "C2S3_Ch13": {
+      "x": 12,
+      "y": 17,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 13
+    },
+    "C2S2_Ch19": {
+      "x": 11,
+      "y": 17,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 19
+    },
+    "C2S3_Ch7": {
+      "x": 10,
+      "y": 17,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 7
+    },
+    "C2S3_Ch6": {
+      "x": 9,
+      "y": 17,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 6
+    },
+    "C2S3_Ch14": {
+      "x": 8,
+      "y": 17,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 14
+    },
+    "C2S2_Ch18": {
+      "x": 15,
+      "y": 18,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 18
+    },
+    "C2S2_Ch16": {
+      "x": 14,
+      "y": 18,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 16
+    },
+    "C2S2_Ch28": {
+      "x": 13,
+      "y": 18,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 28
+    },
+    "C2S2_Ch29": {
+      "x": 12,
+      "y": 18,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 29
+    },
+    "C2S3_Ch3": {
+      "x": 11,
+      "y": 18,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 3
+    },
+    "C2S3_Ch2": {
+      "x": 10,
+      "y": 18,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 2
+    },
+    "C2S3_Ch16": {
+      "x": 9,
+      "y": 18,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 16
+    },
+    "C2S3_Ch0": {
+      "x": 8,
+      "y": 18,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 0
+    },
+    "C2S2_Ch22": {
+      "x": 15,
+      "y": 19,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 22
+    },
+    "C2S2_Ch17": {
+      "x": 14,
+      "y": 19,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 17
+    },
+    "C2S2_Ch7": {
+      "x": 13,
+      "y": 19,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 7
+    },
+    "C2S2_Ch21": {
+      "x": 12,
+      "y": 19,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 21
+    },
+    "C2S3_Ch29": {
+      "x": 11,
+      "y": 19,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 29
+    },
+    "C2S3_Ch28": {
+      "x": 10,
+      "y": 19,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 28
+    },
+    "C2S3_Ch9": {
+      "x": 9,
+      "y": 19,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 9
+    },
+    "C2S3_Ch8": {
+      "x": 8,
+      "y": 19,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 8
+    },
+    "C2S2_Ch8": {
+      "x": 15,
+      "y": 20,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 8
+    },
+    "C2S2_Ch1": {
+      "x": 14,
+      "y": 20,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 1
+    },
+    "C2S2_Ch20": {
+      "x": 13,
+      "y": 20,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 20
+    },
+    "C2S3_Ch27": {
+      "x": 12,
+      "y": 20,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 27
+    },
+    "C2S2_Ch5": {
+      "x": 11,
+      "y": 20,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 5
+    },
+    "C2S3_Ch25": {
+      "x": 10,
+      "y": 20,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 25
+    },
+    "C2S3_Ch12": {
+      "x": 9,
+      "y": 20,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 12
+    },
+    "C2S3_Ch22": {
+      "x": 8,
+      "y": 20,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 22
+    },
+    "C2S2_Ch0": {
+      "x": 15,
+      "y": 21,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 0
+    },
+    "C2S2_Ch14": {
+      "x": 14,
+      "y": 21,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 14
+    },
+    "C2S2_Ch12": {
+      "x": 13,
+      "y": 21,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 12
+    },
+    "C2S2_Ch13": {
+      "x": 12,
+      "y": 21,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 13
+    },
+    "C2S3_Ch21": {
+      "x": 11,
+      "y": 21,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 21
+    },
+    "C2S3_Ch20": {
+      "x": 10,
+      "y": 21,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 20
+    },
+    "C2S3_Ch30": {
+      "x": 9,
+      "y": 21,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 30
+    },
+    "C2S3_Ch24": {
+      "x": 8,
+      "y": 21,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 24
+    },
+    "C2S2_Ch10": {
+      "x": 15,
+      "y": 22,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 10
+    },
+    "C2S2_Ch6": {
+      "x": 14,
+      "y": 22,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 6
+    },
+    "C2S2_Ch15": {
+      "x": 13,
+      "y": 22,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 15
+    },
+    "C2S2_Ch11": {
+      "x": 12,
+      "y": 22,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 11
+    },
+    "C2S3_Ch11": {
+      "x": 11,
+      "y": 22,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 11
+    },
+    "C2S3_Ch31": {
+      "x": 10,
+      "y": 22,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 31
+    },
+    "C2S3_Ch26": {
+      "x": 9,
+      "y": 22,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 26
+    },
+    "C2S3_Ch10": {
+      "x": 8,
+      "y": 22,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 10
+    },
+    "C2S2_Ch2": {
+      "x": 15,
+      "y": 23,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 2
+    },
+    "C2S2_Ch9": {
+      "x": 14,
+      "y": 23,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 9
+    },
+    "C2S2_Ch23": {
+      "x": 13,
+      "y": 23,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 23
+    },
+    "C2S2_Ch3": {
+      "x": 12,
+      "y": 23,
+      "readout": 18,
+      "block": 2,
+      "slot": 2,
+      "channel": 3
+    },
+    "C2S3_Ch19": {
+      "x": 11,
+      "y": 23,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 19
+    },
+    "C2S3_Ch23": {
+      "x": 10,
+      "y": 23,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 23
+    },
+    "C2S3_Ch17": {
+      "x": 9,
+      "y": 23,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 17
+    },
+    "C2S3_Ch18": {
+      "x": 8,
+      "y": 23,
+      "readout": 19,
+      "block": 2,
+      "slot": 3,
+      "channel": 18
+    },
+    "C2S0_Ch30": {
+      "x": 15,
+      "y": 24,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 30
+    },
+    "C2S0_Ch31": {
+      "x": 14,
+      "y": 24,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 31
+    },
+    "C2S0_Ch26": {
+      "x": 13,
+      "y": 24,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 26
+    },
+    "C2S0_Ch27": {
+      "x": 12,
+      "y": 24,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 27
+    },
+    "C2S1_Ch5": {
+      "x": 11,
+      "y": 24,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 5
+    },
+    "C2S1_Ch15": {
+      "x": 10,
+      "y": 24,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 15
+    },
+    "C2S1_Ch1": {
+      "x": 9,
+      "y": 24,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 1
+    },
+    "C2S1_Ch4": {
+      "x": 8,
+      "y": 24,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 4
+    },
+    "C2S0_Ch4": {
+      "x": 15,
+      "y": 25,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 4
+    },
+    "C2S0_Ch24": {
+      "x": 14,
+      "y": 25,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 24
+    },
+    "C2S0_Ch25": {
+      "x": 13,
+      "y": 25,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 25
+    },
+    "C2S1_Ch13": {
+      "x": 12,
+      "y": 25,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 13
+    },
+    "C2S0_Ch19": {
+      "x": 11,
+      "y": 25,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 19
+    },
+    "C2S1_Ch7": {
+      "x": 10,
+      "y": 25,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 7
+    },
+    "C2S1_Ch6": {
+      "x": 9,
+      "y": 25,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 6
+    },
+    "C2S1_Ch14": {
+      "x": 8,
+      "y": 25,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 14
+    },
+    "C2S0_Ch18": {
+      "x": 15,
+      "y": 26,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 18
+    },
+    "C2S0_Ch16": {
+      "x": 14,
+      "y": 26,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 16
+    },
+    "C2S0_Ch28": {
+      "x": 13,
+      "y": 26,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 28
+    },
+    "C2S0_Ch29": {
+      "x": 12,
+      "y": 26,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 29
+    },
+    "C2S1_Ch3": {
+      "x": 11,
+      "y": 26,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 3
+    },
+    "C2S1_Ch2": {
+      "x": 10,
+      "y": 26,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 2
+    },
+    "C2S1_Ch16": {
+      "x": 9,
+      "y": 26,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 16
+    },
+    "C2S1_Ch0": {
+      "x": 8,
+      "y": 26,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 0
+    },
+    "C2S0_Ch22": {
+      "x": 15,
+      "y": 27,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 22
+    },
+    "C2S0_Ch17": {
+      "x": 14,
+      "y": 27,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 17
+    },
+    "C2S0_Ch7": {
+      "x": 13,
+      "y": 27,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 7
+    },
+    "C2S0_Ch21": {
+      "x": 12,
+      "y": 27,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 21
+    },
+    "C2S1_Ch29": {
+      "x": 11,
+      "y": 27,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 29
+    },
+    "C2S1_Ch28": {
+      "x": 10,
+      "y": 27,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 28
+    },
+    "C2S1_Ch9": {
+      "x": 9,
+      "y": 27,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 9
+    },
+    "C2S1_Ch8": {
+      "x": 8,
+      "y": 27,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 8
+    },
+    "C2S0_Ch8": {
+      "x": 15,
+      "y": 28,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 8
+    },
+    "C2S0_Ch1": {
+      "x": 14,
+      "y": 28,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 1
+    },
+    "C2S0_Ch20": {
+      "x": 13,
+      "y": 28,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 20
+    },
+    "C2S1_Ch27": {
+      "x": 12,
+      "y": 28,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 27
+    },
+    "C2S0_Ch5": {
+      "x": 11,
+      "y": 28,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 5
+    },
+    "C2S1_Ch25": {
+      "x": 10,
+      "y": 28,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 25
+    },
+    "C2S1_Ch12": {
+      "x": 9,
+      "y": 28,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 12
+    },
+    "C2S1_Ch22": {
+      "x": 8,
+      "y": 28,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 22
+    },
+    "C2S0_Ch0": {
+      "x": 15,
+      "y": 29,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 0
+    },
+    "C2S0_Ch14": {
+      "x": 14,
+      "y": 29,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 14
+    },
+    "C2S0_Ch12": {
+      "x": 13,
+      "y": 29,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 12
+    },
+    "C2S0_Ch13": {
+      "x": 12,
+      "y": 29,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 13
+    },
+    "C2S1_Ch21": {
+      "x": 11,
+      "y": 29,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 21
+    },
+    "C2S1_Ch20": {
+      "x": 10,
+      "y": 29,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 20
+    },
+    "C2S1_Ch30": {
+      "x": 9,
+      "y": 29,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 30
+    },
+    "C2S1_Ch24": {
+      "x": 8,
+      "y": 29,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 24
+    },
+    "C2S0_Ch10": {
+      "x": 15,
+      "y": 30,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 10
+    },
+    "C2S0_Ch6": {
+      "x": 14,
+      "y": 30,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 6
+    },
+    "C2S0_Ch15": {
+      "x": 13,
+      "y": 30,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 15
+    },
+    "C2S0_Ch11": {
+      "x": 12,
+      "y": 30,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 11
+    },
+    "C2S1_Ch11": {
+      "x": 11,
+      "y": 30,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 11
+    },
+    "C2S1_Ch31": {
+      "x": 10,
+      "y": 30,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 31
+    },
+    "C2S1_Ch26": {
+      "x": 9,
+      "y": 30,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 26
+    },
+    "C2S1_Ch10": {
+      "x": 8,
+      "y": 30,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 10
+    },
+    "C2S0_Ch2": {
+      "x": 15,
+      "y": 31,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 2
+    },
+    "C2S0_Ch9": {
+      "x": 14,
+      "y": 31,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 9
+    },
+    "C2S0_Ch23": {
+      "x": 13,
+      "y": 31,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 23
+    },
+    "C2S0_Ch3": {
+      "x": 12,
+      "y": 31,
+      "readout": 16,
+      "block": 2,
+      "slot": 0,
+      "channel": 3
+    },
+    "C2S1_Ch19": {
+      "x": 11,
+      "y": 31,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 19
+    },
+    "C2S1_Ch23": {
+      "x": 10,
+      "y": 31,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 23
+    },
+    "C2S1_Ch17": {
+      "x": 9,
+      "y": 31,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 17
+    },
+    "C2S1_Ch18": {
+      "x": 8,
+      "y": 31,
+      "readout": 17,
+      "block": 2,
+      "slot": 1,
+      "channel": 18
+    },
+    "C3S6_Ch24": {
+      "x": 7,
+      "y": 0,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 24
+    },
+    "C3S6_Ch17": {
+      "x": 6,
+      "y": 0,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 17
+    },
+    "C3S6_Ch18": {
+      "x": 5,
+      "y": 0,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 18
+    },
+    "C3S6_Ch19": {
+      "x": 4,
+      "y": 0,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 19
+    },
+    "C3S7_Ch3": {
+      "x": 3,
+      "y": 0,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 3
+    },
+    "C3S7_Ch23": {
+      "x": 2,
+      "y": 0,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 23
+    },
+    "C3S7_Ch9": {
+      "x": 1,
+      "y": 0,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 9
+    },
+    "C3S7_Ch2": {
+      "x": 0,
+      "y": 0,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 2
+    },
+    "C3S6_Ch10": {
+      "x": 7,
+      "y": 1,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 10
+    },
+    "C3S6_Ch26": {
+      "x": 6,
+      "y": 1,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 26
+    },
+    "C3S6_Ch31": {
+      "x": 5,
+      "y": 1,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 31
+    },
+    "C3S6_Ch11": {
+      "x": 4,
+      "y": 1,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 11
+    },
+    "C3S7_Ch11": {
+      "x": 3,
+      "y": 1,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 11
+    },
+    "C3S7_Ch15": {
+      "x": 2,
+      "y": 1,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 15
+    },
+    "C3S7_Ch6": {
+      "x": 1,
+      "y": 1,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 6
+    },
+    "C3S7_Ch10": {
+      "x": 0,
+      "y": 1,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 10
+    },
+    "C3S6_Ch23": {
+      "x": 7,
+      "y": 2,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 23
+    },
+    "C3S6_Ch30": {
+      "x": 6,
+      "y": 2,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 30
+    },
+    "C3S6_Ch20": {
+      "x": 5,
+      "y": 2,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 20
+    },
+    "C3S6_Ch21": {
+      "x": 4,
+      "y": 2,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 21
+    },
+    "C3S7_Ch13": {
+      "x": 3,
+      "y": 2,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 13
+    },
+    "C3S7_Ch12": {
+      "x": 2,
+      "y": 2,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 12
+    },
+    "C3S7_Ch14": {
+      "x": 1,
+      "y": 2,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 14
+    },
+    "C3S7_Ch0": {
+      "x": 0,
+      "y": 2,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 0
+    },
+    "C3S6_Ch8": {
+      "x": 7,
+      "y": 3,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 8
+    },
+    "C3S6_Ch12": {
+      "x": 6,
+      "y": 3,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 12
+    },
+    "C3S6_Ch25": {
+      "x": 5,
+      "y": 3,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 25
+    },
+    "C3S7_Ch5": {
+      "x": 4,
+      "y": 3,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 5
+    },
+    "C3S6_Ch27": {
+      "x": 3,
+      "y": 3,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 27
+    },
+    "C3S7_Ch20": {
+      "x": 2,
+      "y": 3,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 20
+    },
+    "C3S7_Ch1": {
+      "x": 1,
+      "y": 3,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 1
+    },
+    "C3S7_Ch8": {
+      "x": 0,
+      "y": 3,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 8
+    },
+    "C3S6_Ch22": {
+      "x": 7,
+      "y": 4,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 22
+    },
+    "C3S6_Ch9": {
+      "x": 6,
+      "y": 4,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 9
+    },
+    "C3S6_Ch28": {
+      "x": 5,
+      "y": 4,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 28
+    },
+    "C3S6_Ch29": {
+      "x": 4,
+      "y": 4,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 29
+    },
+    "C3S7_Ch21": {
+      "x": 3,
+      "y": 4,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 21
+    },
+    "C3S7_Ch7": {
+      "x": 2,
+      "y": 4,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 7
+    },
+    "C3S7_Ch17": {
+      "x": 1,
+      "y": 4,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 17
+    },
+    "C3S7_Ch22": {
+      "x": 0,
+      "y": 4,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 22
+    },
+    "C3S6_Ch0": {
+      "x": 7,
+      "y": 5,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 0
+    },
+    "C3S6_Ch16": {
+      "x": 6,
+      "y": 5,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 16
+    },
+    "C3S6_Ch2": {
+      "x": 5,
+      "y": 5,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 2
+    },
+    "C3S6_Ch3": {
+      "x": 4,
+      "y": 5,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 3
+    },
+    "C3S7_Ch29": {
+      "x": 3,
+      "y": 5,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 29
+    },
+    "C3S7_Ch28": {
+      "x": 2,
+      "y": 5,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 28
+    },
+    "C3S7_Ch16": {
+      "x": 1,
+      "y": 5,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 16
+    },
+    "C3S7_Ch30": {
+      "x": 0,
+      "y": 5,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 30
+    },
+    "C3S6_Ch14": {
+      "x": 7,
+      "y": 6,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 14
+    },
+    "C3S6_Ch6": {
+      "x": 6,
+      "y": 6,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 6
+    },
+    "C3S6_Ch7": {
+      "x": 5,
+      "y": 6,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 7
+    },
+    "C3S7_Ch19": {
+      "x": 4,
+      "y": 6,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 19
+    },
+    "C3S6_Ch13": {
+      "x": 3,
+      "y": 6,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 13
+    },
+    "C3S7_Ch25": {
+      "x": 2,
+      "y": 6,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 25
+    },
+    "C3S7_Ch24": {
+      "x": 1,
+      "y": 6,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 24
+    },
+    "C3S7_Ch4": {
+      "x": 0,
+      "y": 6,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 4
+    },
+    "C3S6_Ch4": {
+      "x": 7,
+      "y": 7,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 4
+    },
+    "C3S6_Ch1": {
+      "x": 6,
+      "y": 7,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 1
+    },
+    "C3S6_Ch15": {
+      "x": 5,
+      "y": 7,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 15
+    },
+    "C3S6_Ch5": {
+      "x": 4,
+      "y": 7,
+      "readout": 30,
+      "block": 3,
+      "slot": 6,
+      "channel": 5
+    },
+    "C3S7_Ch27": {
+      "x": 3,
+      "y": 7,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 27
+    },
+    "C3S7_Ch18": {
+      "x": 2,
+      "y": 7,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 18
+    },
+    "C3S7_Ch31": {
+      "x": 1,
+      "y": 7,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 31
+    },
+    "C3S7_Ch26": {
+      "x": 0,
+      "y": 7,
+      "readout": 31,
+      "block": 3,
+      "slot": 7,
+      "channel": 26
+    },
+    "C3S4_Ch24": {
+      "x": 7,
+      "y": 8,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 24
+    },
+    "C3S4_Ch17": {
+      "x": 6,
+      "y": 8,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 17
+    },
+    "C3S4_Ch18": {
+      "x": 5,
+      "y": 8,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 18
+    },
+    "C3S4_Ch19": {
+      "x": 4,
+      "y": 8,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 19
+    },
+    "C3S5_Ch3": {
+      "x": 3,
+      "y": 8,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 3
+    },
+    "C3S5_Ch23": {
+      "x": 2,
+      "y": 8,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 23
+    },
+    "C3S5_Ch9": {
+      "x": 1,
+      "y": 8,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 9
+    },
+    "C3S5_Ch2": {
+      "x": 0,
+      "y": 8,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 2
+    },
+    "C3S4_Ch10": {
+      "x": 7,
+      "y": 9,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 10
+    },
+    "C3S4_Ch26": {
+      "x": 6,
+      "y": 9,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 26
+    },
+    "C3S4_Ch31": {
+      "x": 5,
+      "y": 9,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 31
+    },
+    "C3S4_Ch11": {
+      "x": 4,
+      "y": 9,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 11
+    },
+    "C3S5_Ch11": {
+      "x": 3,
+      "y": 9,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 11
+    },
+    "C3S5_Ch15": {
+      "x": 2,
+      "y": 9,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 15
+    },
+    "C3S5_Ch6": {
+      "x": 1,
+      "y": 9,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 6
+    },
+    "C3S5_Ch10": {
+      "x": 0,
+      "y": 9,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 10
+    },
+    "C3S4_Ch23": {
+      "x": 7,
+      "y": 10,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 23
+    },
+    "C3S4_Ch30": {
+      "x": 6,
+      "y": 10,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 30
+    },
+    "C3S4_Ch20": {
+      "x": 5,
+      "y": 10,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 20
+    },
+    "C3S4_Ch21": {
+      "x": 4,
+      "y": 10,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 21
+    },
+    "C3S5_Ch13": {
+      "x": 3,
+      "y": 10,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 13
+    },
+    "C3S5_Ch12": {
+      "x": 2,
+      "y": 10,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 12
+    },
+    "C3S5_Ch14": {
+      "x": 1,
+      "y": 10,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 14
+    },
+    "C3S5_Ch0": {
+      "x": 0,
+      "y": 10,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 0
+    },
+    "C3S4_Ch8": {
+      "x": 7,
+      "y": 11,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 8
+    },
+    "C3S4_Ch12": {
+      "x": 6,
+      "y": 11,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 12
+    },
+    "C3S4_Ch25": {
+      "x": 5,
+      "y": 11,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 25
+    },
+    "C3S5_Ch5": {
+      "x": 4,
+      "y": 11,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 5
+    },
+    "C3S4_Ch27": {
+      "x": 3,
+      "y": 11,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 27
+    },
+    "C3S5_Ch20": {
+      "x": 2,
+      "y": 11,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 20
+    },
+    "C3S5_Ch1": {
+      "x": 1,
+      "y": 11,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 1
+    },
+    "C3S5_Ch8": {
+      "x": 0,
+      "y": 11,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 8
+    },
+    "C3S4_Ch22": {
+      "x": 7,
+      "y": 12,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 22
+    },
+    "C3S4_Ch9": {
+      "x": 6,
+      "y": 12,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 9
+    },
+    "C3S4_Ch28": {
+      "x": 5,
+      "y": 12,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 28
+    },
+    "C3S4_Ch29": {
+      "x": 4,
+      "y": 12,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 29
+    },
+    "C3S5_Ch21": {
+      "x": 3,
+      "y": 12,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 21
+    },
+    "C3S5_Ch7": {
+      "x": 2,
+      "y": 12,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 7
+    },
+    "C3S5_Ch17": {
+      "x": 1,
+      "y": 12,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 17
+    },
+    "C3S5_Ch22": {
+      "x": 0,
+      "y": 12,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 22
+    },
+    "C3S4_Ch0": {
+      "x": 7,
+      "y": 13,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 0
+    },
+    "C3S4_Ch16": {
+      "x": 6,
+      "y": 13,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 16
+    },
+    "C3S4_Ch2": {
+      "x": 5,
+      "y": 13,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 2
+    },
+    "C3S4_Ch3": {
+      "x": 4,
+      "y": 13,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 3
+    },
+    "C3S5_Ch29": {
+      "x": 3,
+      "y": 13,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 29
+    },
+    "C3S5_Ch28": {
+      "x": 2,
+      "y": 13,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 28
+    },
+    "C3S5_Ch16": {
+      "x": 1,
+      "y": 13,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 16
+    },
+    "C3S5_Ch30": {
+      "x": 0,
+      "y": 13,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 30
+    },
+    "C3S4_Ch14": {
+      "x": 7,
+      "y": 14,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 14
+    },
+    "C3S4_Ch6": {
+      "x": 6,
+      "y": 14,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 6
+    },
+    "C3S4_Ch7": {
+      "x": 5,
+      "y": 14,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 7
+    },
+    "C3S5_Ch19": {
+      "x": 4,
+      "y": 14,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 19
+    },
+    "C3S4_Ch13": {
+      "x": 3,
+      "y": 14,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 13
+    },
+    "C3S5_Ch25": {
+      "x": 2,
+      "y": 14,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 25
+    },
+    "C3S5_Ch24": {
+      "x": 1,
+      "y": 14,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 24
+    },
+    "C3S5_Ch4": {
+      "x": 0,
+      "y": 14,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 4
+    },
+    "C3S4_Ch4": {
+      "x": 7,
+      "y": 15,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 4
+    },
+    "C3S4_Ch1": {
+      "x": 6,
+      "y": 15,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 1
+    },
+    "C3S4_Ch15": {
+      "x": 5,
+      "y": 15,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 15
+    },
+    "C3S4_Ch5": {
+      "x": 4,
+      "y": 15,
+      "readout": 28,
+      "block": 3,
+      "slot": 4,
+      "channel": 5
+    },
+    "C3S5_Ch27": {
+      "x": 3,
+      "y": 15,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 27
+    },
+    "C3S5_Ch18": {
+      "x": 2,
+      "y": 15,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 18
+    },
+    "C3S5_Ch31": {
+      "x": 1,
+      "y": 15,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 31
+    },
+    "C3S5_Ch26": {
+      "x": 0,
+      "y": 15,
+      "readout": 29,
+      "block": 3,
+      "slot": 5,
+      "channel": 26
+    },
+    "C3S2_Ch30": {
+      "x": 7,
+      "y": 16,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 30
+    },
+    "C3S2_Ch31": {
+      "x": 6,
+      "y": 16,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 31
+    },
+    "C3S2_Ch26": {
+      "x": 5,
+      "y": 16,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 26
+    },
+    "C3S2_Ch27": {
+      "x": 4,
+      "y": 16,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 27
+    },
+    "C3S3_Ch5": {
+      "x": 3,
+      "y": 16,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 5
+    },
+    "C3S3_Ch15": {
+      "x": 2,
+      "y": 16,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 15
+    },
+    "C3S3_Ch1": {
+      "x": 1,
+      "y": 16,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 1
+    },
+    "C3S3_Ch4": {
+      "x": 0,
+      "y": 16,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 4
+    },
+    "C3S2_Ch4": {
+      "x": 7,
+      "y": 17,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 4
+    },
+    "C3S2_Ch24": {
+      "x": 6,
+      "y": 17,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 24
+    },
+    "C3S2_Ch25": {
+      "x": 5,
+      "y": 17,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 25
+    },
+    "C3S3_Ch13": {
+      "x": 4,
+      "y": 17,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 13
+    },
+    "C3S2_Ch19": {
+      "x": 3,
+      "y": 17,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 19
+    },
+    "C3S3_Ch7": {
+      "x": 2,
+      "y": 17,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 7
+    },
+    "C3S3_Ch6": {
+      "x": 1,
+      "y": 17,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 6
+    },
+    "C3S3_Ch14": {
+      "x": 0,
+      "y": 17,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 14
+    },
+    "C3S2_Ch18": {
+      "x": 7,
+      "y": 18,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 18
+    },
+    "C3S2_Ch16": {
+      "x": 6,
+      "y": 18,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 16
+    },
+    "C3S2_Ch28": {
+      "x": 5,
+      "y": 18,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 28
+    },
+    "C3S2_Ch29": {
+      "x": 4,
+      "y": 18,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 29
+    },
+    "C3S3_Ch3": {
+      "x": 3,
+      "y": 18,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 3
+    },
+    "C3S3_Ch2": {
+      "x": 2,
+      "y": 18,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 2
+    },
+    "C3S3_Ch16": {
+      "x": 1,
+      "y": 18,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 16
+    },
+    "C3S3_Ch0": {
+      "x": 0,
+      "y": 18,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 0
+    },
+    "C3S2_Ch22": {
+      "x": 7,
+      "y": 19,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 22
+    },
+    "C3S2_Ch17": {
+      "x": 6,
+      "y": 19,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 17
+    },
+    "C3S2_Ch7": {
+      "x": 5,
+      "y": 19,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 7
+    },
+    "C3S2_Ch21": {
+      "x": 4,
+      "y": 19,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 21
+    },
+    "C3S3_Ch29": {
+      "x": 3,
+      "y": 19,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 29
+    },
+    "C3S3_Ch28": {
+      "x": 2,
+      "y": 19,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 28
+    },
+    "C3S3_Ch9": {
+      "x": 1,
+      "y": 19,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 9
+    },
+    "C3S3_Ch8": {
+      "x": 0,
+      "y": 19,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 8
+    },
+    "C3S2_Ch8": {
+      "x": 7,
+      "y": 20,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 8
+    },
+    "C3S2_Ch1": {
+      "x": 6,
+      "y": 20,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 1
+    },
+    "C3S2_Ch20": {
+      "x": 5,
+      "y": 20,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 20
+    },
+    "C3S3_Ch27": {
+      "x": 4,
+      "y": 20,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 27
+    },
+    "C3S2_Ch5": {
+      "x": 3,
+      "y": 20,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 5
+    },
+    "C3S3_Ch25": {
+      "x": 2,
+      "y": 20,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 25
+    },
+    "C3S3_Ch12": {
+      "x": 1,
+      "y": 20,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 12
+    },
+    "C3S3_Ch22": {
+      "x": 0,
+      "y": 20,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 22
+    },
+    "C3S2_Ch0": {
+      "x": 7,
+      "y": 21,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 0
+    },
+    "C3S2_Ch14": {
+      "x": 6,
+      "y": 21,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 14
+    },
+    "C3S2_Ch12": {
+      "x": 5,
+      "y": 21,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 12
+    },
+    "C3S2_Ch13": {
+      "x": 4,
+      "y": 21,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 13
+    },
+    "C3S3_Ch21": {
+      "x": 3,
+      "y": 21,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 21
+    },
+    "C3S3_Ch20": {
+      "x": 2,
+      "y": 21,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 20
+    },
+    "C3S3_Ch30": {
+      "x": 1,
+      "y": 21,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 30
+    },
+    "C3S3_Ch24": {
+      "x": 0,
+      "y": 21,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 24
+    },
+    "C3S2_Ch10": {
+      "x": 7,
+      "y": 22,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 10
+    },
+    "C3S2_Ch6": {
+      "x": 6,
+      "y": 22,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 6
+    },
+    "C3S2_Ch15": {
+      "x": 5,
+      "y": 22,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 15
+    },
+    "C3S2_Ch11": {
+      "x": 4,
+      "y": 22,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 11
+    },
+    "C3S3_Ch11": {
+      "x": 3,
+      "y": 22,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 11
+    },
+    "C3S3_Ch31": {
+      "x": 2,
+      "y": 22,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 31
+    },
+    "C3S3_Ch26": {
+      "x": 1,
+      "y": 22,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 26
+    },
+    "C3S3_Ch10": {
+      "x": 0,
+      "y": 22,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 10
+    },
+    "C3S2_Ch2": {
+      "x": 7,
+      "y": 23,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 2
+    },
+    "C3S2_Ch9": {
+      "x": 6,
+      "y": 23,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 9
+    },
+    "C3S2_Ch23": {
+      "x": 5,
+      "y": 23,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 23
+    },
+    "C3S2_Ch3": {
+      "x": 4,
+      "y": 23,
+      "readout": 26,
+      "block": 3,
+      "slot": 2,
+      "channel": 3
+    },
+    "C3S3_Ch19": {
+      "x": 3,
+      "y": 23,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 19
+    },
+    "C3S3_Ch23": {
+      "x": 2,
+      "y": 23,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 23
+    },
+    "C3S3_Ch17": {
+      "x": 1,
+      "y": 23,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 17
+    },
+    "C3S3_Ch18": {
+      "x": 0,
+      "y": 23,
+      "readout": 27,
+      "block": 3,
+      "slot": 3,
+      "channel": 18
+    },
+    "C3S0_Ch30": {
+      "x": 7,
+      "y": 24,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 30
+    },
+    "C3S0_Ch31": {
+      "x": 6,
+      "y": 24,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 31
+    },
+    "C3S0_Ch26": {
+      "x": 5,
+      "y": 24,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 26
+    },
+    "C3S0_Ch27": {
+      "x": 4,
+      "y": 24,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 27
+    },
+    "C3S1_Ch5": {
+      "x": 3,
+      "y": 24,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 5
+    },
+    "C3S1_Ch15": {
+      "x": 2,
+      "y": 24,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 15
+    },
+    "C3S1_Ch1": {
+      "x": 1,
+      "y": 24,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 1
+    },
+    "C3S1_Ch4": {
+      "x": 0,
+      "y": 24,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 4
+    },
+    "C3S0_Ch4": {
+      "x": 7,
+      "y": 25,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 4
+    },
+    "C3S0_Ch24": {
+      "x": 6,
+      "y": 25,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 24
+    },
+    "C3S0_Ch25": {
+      "x": 5,
+      "y": 25,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 25
+    },
+    "C3S1_Ch13": {
+      "x": 4,
+      "y": 25,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 13
+    },
+    "C3S0_Ch19": {
+      "x": 3,
+      "y": 25,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 19
+    },
+    "C3S1_Ch7": {
+      "x": 2,
+      "y": 25,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 7
+    },
+    "C3S1_Ch6": {
+      "x": 1,
+      "y": 25,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 6
+    },
+    "C3S1_Ch14": {
+      "x": 0,
+      "y": 25,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 14
+    },
+    "C3S0_Ch18": {
+      "x": 7,
+      "y": 26,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 18
+    },
+    "C3S0_Ch16": {
+      "x": 6,
+      "y": 26,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 16
+    },
+    "C3S0_Ch28": {
+      "x": 5,
+      "y": 26,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 28
+    },
+    "C3S0_Ch29": {
+      "x": 4,
+      "y": 26,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 29
+    },
+    "C3S1_Ch3": {
+      "x": 3,
+      "y": 26,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 3
+    },
+    "C3S1_Ch2": {
+      "x": 2,
+      "y": 26,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 2
+    },
+    "C3S1_Ch16": {
+      "x": 1,
+      "y": 26,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 16
+    },
+    "C3S1_Ch0": {
+      "x": 0,
+      "y": 26,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 0
+    },
+    "C3S0_Ch22": {
+      "x": 7,
+      "y": 27,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 22
+    },
+    "C3S0_Ch17": {
+      "x": 6,
+      "y": 27,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 17
+    },
+    "C3S0_Ch7": {
+      "x": 5,
+      "y": 27,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 7
+    },
+    "C3S0_Ch21": {
+      "x": 4,
+      "y": 27,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 21
+    },
+    "C3S1_Ch29": {
+      "x": 3,
+      "y": 27,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 29
+    },
+    "C3S1_Ch28": {
+      "x": 2,
+      "y": 27,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 28
+    },
+    "C3S1_Ch9": {
+      "x": 1,
+      "y": 27,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 9
+    },
+    "C3S1_Ch8": {
+      "x": 0,
+      "y": 27,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 8
+    },
+    "C3S0_Ch8": {
+      "x": 7,
+      "y": 28,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 8
+    },
+    "C3S0_Ch1": {
+      "x": 6,
+      "y": 28,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 1
+    },
+    "C3S0_Ch20": {
+      "x": 5,
+      "y": 28,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 20
+    },
+    "C3S1_Ch27": {
+      "x": 4,
+      "y": 28,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 27
+    },
+    "C3S0_Ch5": {
+      "x": 3,
+      "y": 28,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 5
+    },
+    "C3S1_Ch25": {
+      "x": 2,
+      "y": 28,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 25
+    },
+    "C3S1_Ch12": {
+      "x": 1,
+      "y": 28,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 12
+    },
+    "C3S1_Ch22": {
+      "x": 0,
+      "y": 28,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 22
+    },
+    "C3S0_Ch0": {
+      "x": 7,
+      "y": 29,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 0
+    },
+    "C3S0_Ch14": {
+      "x": 6,
+      "y": 29,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 14
+    },
+    "C3S0_Ch12": {
+      "x": 5,
+      "y": 29,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 12
+    },
+    "C3S0_Ch13": {
+      "x": 4,
+      "y": 29,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 13
+    },
+    "C3S1_Ch21": {
+      "x": 3,
+      "y": 29,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 21
+    },
+    "C3S1_Ch20": {
+      "x": 2,
+      "y": 29,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 20
+    },
+    "C3S1_Ch30": {
+      "x": 1,
+      "y": 29,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 30
+    },
+    "C3S1_Ch24": {
+      "x": 0,
+      "y": 29,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 24
+    },
+    "C3S0_Ch10": {
+      "x": 7,
+      "y": 30,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 10
+    },
+    "C3S0_Ch6": {
+      "x": 6,
+      "y": 30,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 6
+    },
+    "C3S0_Ch15": {
+      "x": 5,
+      "y": 30,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 15
+    },
+    "C3S0_Ch11": {
+      "x": 4,
+      "y": 30,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 11
+    },
+    "C3S1_Ch11": {
+      "x": 3,
+      "y": 30,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 11
+    },
+    "C3S1_Ch31": {
+      "x": 2,
+      "y": 30,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 31
+    },
+    "C3S1_Ch26": {
+      "x": 1,
+      "y": 30,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 26
+    },
+    "C3S1_Ch10": {
+      "x": 0,
+      "y": 30,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 10
+    },
+    "C3S0_Ch2": {
+      "x": 7,
+      "y": 31,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 2
+    },
+    "C3S0_Ch9": {
+      "x": 6,
+      "y": 31,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 9
+    },
+    "C3S0_Ch23": {
+      "x": 5,
+      "y": 31,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 23
+    },
+    "C3S0_Ch3": {
+      "x": 4,
+      "y": 31,
+      "readout": 24,
+      "block": 3,
+      "slot": 0,
+      "channel": 3
+    },
+    "C3S1_Ch19": {
+      "x": 3,
+      "y": 31,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 19
+    },
+    "C3S1_Ch23": {
+      "x": 2,
+      "y": 31,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 23
+    },
+    "C3S1_Ch17": {
+      "x": 1,
+      "y": 31,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 17
+    },
+    "C3S1_Ch18": {
+      "x": 0,
+      "y": 31,
+      "readout": 25,
+      "block": 3,
+      "slot": 1,
+      "channel": 18
+    }
+  },
+  "specs": {
+    "pixel_pitch_mm": 3.25,
+    "offset_x_mm": 0.0,
+    "offset_y_mm": 0.0,
+    "placeholder": true
+  }
+}

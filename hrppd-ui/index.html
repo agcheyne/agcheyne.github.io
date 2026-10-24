@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HRPPD Detector Channel Layout</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                font-family: Arial, sans-serif;
+                display: grid;
+                grid-template-columns: 2fr 1fr 1fr;
+                grid-template-rows: auto auto auto auto;
+                gap: 15px;
+                padding: 15px;
+                background-color: #f0f0f0;
+                min-height: 100vh;
+            }
+            h2 {
+                grid-column: 1 / -1;
+                margin-bottom: 0;
+            }
+            .canvas-container {
+                grid-column: 1;
+                grid-row: 2 / 5;
+                background: white;
+                padding: 15px;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .controls-container {
+                background: white;
+                padding: 10px;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+
+            .controls-container:nth-of-type(2) {
+                grid-column: 2;
+                grid-row: 2;
+            }
+
+            .controls-container:nth-of-type(3) {
+                grid-column: 3;
+                grid-row: 2;
+            }
+
+            .controls-container:nth-of-type(4) {
+                grid-column: 2;
+                grid-row: 3;
+            }
+
+            .controls-container:nth-of-type(5) {
+                grid-column: 3;
+                grid-row: 3;
+            }
+
+            .note {
+                font-size: 11px;
+                color: #666;
+                margin-bottom: 6px;
+            }
+            .warning {
+                font-size: 12px;
+                background-color: #fff3cd;
+                border: 1px solid #e0b400;
+                padding: 6px;
+                margin-bottom: 8px;
+            }
+
+            canvas {
+                max-width: 100%;
+            }
+
+            @media (max-width: 1024px) {
+                body {
+                    grid-template-columns: 1fr;
+                }
+                .canvas-container {
+                    grid-column: 1;
+                    grid-row: auto;
+                }
+                .controls-container {
+                    grid-column: 1;
+                    grid-row: auto;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h2>HRPPD Channel map (detector face)</h2>
+
+        <div class="canvas-container">
+            <p class="warning" id="placeholderWarning" style="display:none;">
+                Pixel pitch and offset are <strong>placeholders</strong>, not measured: laser positions on this page are only indicative.
+            </p>
+            <div style="margin-bottom: 10px; display: flex; gap: 10px;">
+                <div style="flex: 1;">
+                    <label style="margin: 0;">X Offset (mm):
+                        <input type="number" id="offsetX" step="0.1" value="0">
+                    </label>
+                </div>
+                <div style="flex: 1;">
+                    <label style="margin: 0;">Y Offset (mm):
+                        <input type="number" id="offsetY" step="0.1" value="0">
+                    </label>
+                </div>
+            </div>
+            <p class="note"><em>Offset is from centre of pixel (0,0)</em></p>
+            <p class="note">32 x 32 pixels: 4 readout columns (blocks C0-C3, thick lines) of 8 x 32 pixels, each read by 8 digitiser slots (colours) of 32 channels.
+                Face view (laser side): mirrored from the back-view readout table, so C0 is on the right. Pixel labels are channel numbers.</p>
+            <canvas id="canvas" width="560" height="560"></canvas>
+        </div>
+
+        <div class="controls-container">
+            <div class="control-group" id="infoBox">
+                <h3>Pixel Info (Click)</h3>
+                <p><strong>Block:</strong> <span id="infoBlock">-</span></p>
+                <p><strong>Slot:</strong> <span id="infoSlot">-</span></p>
+                <p><strong>Channel:</strong> <span id="infoChannel">-</span></p>
+                <p><strong>Pixel (X, Y):</strong> <span id="infoX">-</span>, <span id="infoY">-</span></p>
+                <p><strong>Laser (mm):</strong> <span id="infoLaserX">-</span>, <span id="infoLaserY">-</span></p>
+            </div>
+        </div>
+
+        <div class="controls-container">
+            <div class="control-group">
+                <h3>Find by Laser Position</h3>
+                <p><label>Laser X (mm):<input type="number" id="laserInputX" step="0.1" value="0"></label></p>
+                <p><label>Laser Y (mm):<input type="number" id="laserInputY" step="0.1" value="0"></label></p>
+                <p><button id="findBtn">Find Pixel</button></p>
+                <div id="resultBox" style="display:none; background-color: #e8f5e9; border: 1px solid #4CAF50; padding: 8px; margin-top: 10px; font-size: 12px;">
+                    <p><strong>Block:</strong> <span id="resultBlock"></span></p>
+                    <p><strong>Slot:</strong> <span id="resultSlot"></span></p>
+                    <p><strong>Channel:</strong> <span id="resultChannel"></span></p>
+                    <p><strong>Pixel X, Y:</strong> <span id="resultX"></span>, <span id="resultY"></span></p>
+                    <p><strong>Distance:</strong> <span id="resultDistance"></span> mm</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls-container">
+            <div class="control-group">
+                <h3>Highlight Channel</h3>
+                <p><label>Block:<select id="blockSelect">
+                    <option value="">All blocks</option>
+                    <option value="0">C0</option>
+                    <option value="1">C1</option>
+                    <option value="2">C2</option>
+                    <option value="3">C3</option>
+                </select></label></p>
+                <p><label>Slot:<select id="slotSelect">
+                    <option value="">All slots</option>
+                    <option value="0">Slot 0</option>
+                    <option value="1">Slot 1</option>
+                    <option value="2">Slot 2</option>
+                    <option value="3">Slot 3</option>
+                    <option value="4">Slot 4</option>
+                    <option value="5">Slot 5</option>
+                    <option value="6">Slot 6</option>
+                    <option value="7">Slot 7</option>
+                </select></label></p>
+                <p><label>Channel Number:<input type="number" id="channelInput" min="0" max="31" step="1" value="0"></label></p>
+                <p><button id="highlightBtn">Highlight</button></p>
+            </div>
+        </div>
+
+        <div class="controls-container">
+            <div class="control-group">
+                <h3>Scan Region</h3>
+                <p><label>X Min (mm):<input type="number" id="scanXMin" step="1.0" value="0"></label></p>
+                <p><label>X Dist (mm):<input type="number" id="scanXDist" step="1.0" value="30"></label></p>
+                <p><label>Y Min (mm):<input type="number" id="scanYMin" step="1.0" value="0"></label></p>
+                <p><label>Y Dist (mm):<input type="number" id="scanYDist" step="1.0" value="15"></label></p>
+                <p><button id="setScanBtn">Set Scan Region</button>
+            </div>
+        </div>
+
+        <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        const offsetXInput = document.getElementById('offsetX');
+        const offsetYInput = document.getElementById('offsetY');
+        const infoBox = document.getElementById('infoBox');
+
+        // 32 x 32 grid: smaller cells than the 8 x 8 / 16 x 16 pages
+        const pixelSize = 14;
+        const gap = 1;
+        const padding = 40;
+        const step = pixelSize + gap;
+        const nPix = 32;
+
+        let selectedPixel = null;
+        let highlightedPixels = [];
+        let scanRegion = null;
+
+        let channels = {};
+        let detectorOffset = {x: 0, y: 0};
+        let detectorSpecs = {};
+
+        async function loadData() {
+            try {
+                const response = await fetch('./static/detector-data.json');
+                const data = await response.json();
+                channels = data.channels;
+                detectorSpecs = data.specs;
+
+                // ?? not ||: an offset of 0 is a real value here
+                detectorOffset.x = detectorSpecs.offset_x_mm ?? 0;
+                detectorOffset.y = detectorSpecs.offset_y_mm ?? 0;
+                offsetXInput.value = detectorOffset.x;
+                offsetYInput.value = detectorOffset.y;
+                if (detectorSpecs.placeholder) {
+                    document.getElementById('placeholderWarning').style.display = 'block';
+                }
+
+                drawCanvas();
+            } catch (error) {
+                console.error('Error loading detector data:', error);
+            }
+        }
+
+        // static page (GitHub Pages): the offset only lives in this browser tab
+        function updateOffset() {
+            detectorOffset.x = parseFloat(offsetXInput.value);
+            detectorOffset.y = parseFloat(offsetYInput.value);
+            drawCanvas();
+        }
+
+        function cellCorner(data) {
+            return {
+                x: padding + data.x * step - pixelSize/2,
+                y: padding + data.y * step - pixelSize/2
+            };
+        }
+
+        function drawLabel(text, data, font) {
+            const c = cellCorner(data);
+            ctx.fillStyle = '#000';
+            ctx.font = font;
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText(text, c.x + pixelSize/2, c.y + pixelSize/2);
+        }
+
+        function drawCanvas() {
+            ctx.fillStyle = 'white';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            // one colour per digitiser slot (the same 8 slots repeat in every block)
+            const slotColors = {
+                0: '#FF6B6B',  // Red
+                1: '#4ECDC4',  // Teal
+                2: '#45B7D1',  // Blue
+                3: '#FFA07A',  // Light Salmon
+                4: '#98D8C8',  // Mint
+                5: '#F7DC6F',  // Yellow
+                6: '#BB8FCE',  // Purple
+                7: '#85C1E2',  // Light Blue
+            };
+
+            for (const [name, data] of Object.entries(channels)) {
+                const c = cellCorner(data);
+                ctx.fillStyle = slotColors[data.slot] || '#6496ff';
+                ctx.fillRect(c.x, c.y, pixelSize, pixelSize);
+                ctx.strokeStyle = '#000';
+                ctx.lineWidth = 0.5;
+                ctx.strokeRect(c.x, c.y, pixelSize, pixelSize);
+                drawLabel(`${data.channel}`, data, '7px Arial');
+            }
+
+            // block boundaries: every 8 columns
+            ctx.strokeStyle = '#000';
+            ctx.lineWidth = 2.5;
+            for (let b = 0; b <= 4; b++) {
+                const x = padding - pixelSize/2 - gap/2 + b * 8 * step;
+                ctx.beginPath();
+                ctx.moveTo(x, padding - pixelSize/2 - gap/2);
+                ctx.lineTo(x, padding - pixelSize/2 - gap/2 + nPix * step);
+                ctx.stroke();
+            }
+            // block names (C0 is on the right in the face view)
+            ctx.fillStyle = '#333';
+            ctx.font = 'bold 11px Arial';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'alphabetic';
+            for (let b = 0; b < 4; b++) {
+                const xCentre = padding + (31 - (8 * b + 3.5)) * step;
+                ctx.fillText(`C${b}`, xCentre, padding + nPix * step + 4);
+            }
+
+            if (highlightedPixels.length > 0) {
+                for (const pixel of highlightedPixels) {
+                    const c = cellCorner(pixel);
+                    ctx.fillStyle = '#FFD700';
+                    ctx.fillRect(c.x, c.y, pixelSize, pixelSize);
+                    ctx.strokeStyle = '#FF8C00';
+                    ctx.lineWidth = 2;
+                    ctx.strokeRect(c.x, c.y, pixelSize, pixelSize);
+                    drawLabel(`${pixel.channel}`, pixel, 'bold 8px Arial');
+                }
+            }
+
+            if (selectedPixel) {
+                const c = cellCorner(selectedPixel);
+                ctx.strokeStyle = '#000';
+                ctx.lineWidth = 3;
+                ctx.strokeRect(c.x, c.y, pixelSize, pixelSize);
+                drawLabel(`${selectedPixel.channel}`, selectedPixel, 'bold 8px Arial');
+            }
+
+            // scan region, given in LASER coordinates (mm)
+            if (scanRegion && detectorSpecs.pixel_pitch_mm) {
+                const toCanvasX = (mm) => padding + ((mm - detectorOffset.x) / detectorSpecs.pixel_pitch_mm) * step;
+                const toCanvasY = (mm) => padding + ((mm - detectorOffset.y) / detectorSpecs.pixel_pitch_mm) * step;
+                const x1 = toCanvasX(scanRegion.xMin), x2 = toCanvasX(scanRegion.xMax);
+                const y1 = toCanvasY(scanRegion.yMin), y2 = toCanvasY(scanRegion.yMax);
+                ctx.strokeStyle = '#FF1493';
+                ctx.lineWidth = 4;
+                ctx.strokeRect(x1, y1, x2 - x1, y2 - y1);
+                ctx.fillStyle = '#FF1493';
+                ctx.font = 'bold 12px Arial';
+                ctx.textAlign = 'left';
+                ctx.fillText('SCAN', x1, y1 - 6);
+            }
+
+            // axis labels every 4 pixels
+            ctx.fillStyle = '#333';
+            ctx.font = '10px Arial';
+            ctx.textBaseline = 'middle';
+            for (let i = 0; i < nPix; i += 4) {
+                ctx.textAlign = 'center';
+                ctx.fillText(i, padding + i * step, padding - 18);
+                ctx.textAlign = 'right';
+                ctx.fillText(i, padding - 14, padding + i * step);
+            }
+        }
+
+        function getPixelAtMouse(x, y) {
+            for (const [name, data] of Object.entries(channels)) {
+                const c = cellCorner(data);
+                if (x >= c.x && x <= c.x + pixelSize && y >= c.y && y <= c.y + pixelSize) {
+                    return {name, data};
+                }
+            }
+            return null;
+        }
+
+        function getPixelLaserCoords(pixelData) {
+            // offset is the CENTRE of pixel (0,0)
+            return {
+                x: pixelData.x * detectorSpecs.pixel_pitch_mm + detectorOffset.x,
+                y: pixelData.y * detectorSpecs.pixel_pitch_mm + detectorOffset.y
+            };
+        }
+
+        function showPixel(prefix, data) {
+            document.getElementById(prefix + 'Block').textContent = `C${data.block}`;
+            document.getElementById(prefix + 'Slot').textContent = data.slot;
+            document.getElementById(prefix + 'Channel').textContent = data.channel;
+            document.getElementById(prefix + 'X').textContent = data.x;
+            document.getElementById(prefix + 'Y').textContent = data.y;
+        }
+
+        canvas.addEventListener('click', (e) => {
+            const rect = canvas.getBoundingClientRect();
+            // the canvas may be scaled down on narrow screens
+            const mouseX = (e.clientX - rect.left) * canvas.width / rect.width;
+            const mouseY = (e.clientY - rect.top) * canvas.height / rect.height;
+            const pixel = getPixelAtMouse(mouseX, mouseY);
+
+            if (pixel) {
+                selectedPixel = pixel.data;
+                const laserCoords = getPixelLaserCoords(pixel.data);
+                showPixel('info', pixel.data);
+                document.getElementById('infoLaserX').textContent = laserCoords.x.toFixed(3);
+                document.getElementById('infoLaserY').textContent = laserCoords.y.toFixed(3);
+                infoBox.style.display = 'block';
+                drawCanvas();
+            }
+        });
+
+        function findNearestPixel(laserX, laserY) {
+            let nearestPixel = null;
+            let minDistance = Infinity;
+            for (const [name, data] of Object.entries(channels)) {
+                const p = getPixelLaserCoords(data);
+                const distance = Math.hypot(laserX - p.x, laserY - p.y);
+                if (distance < minDistance) {
+                    minDistance = distance;
+                    nearestPixel = {data, distance};
+                }
+            }
+            return nearestPixel;
+        }
+
+        document.getElementById('findBtn').addEventListener('click', () => {
+            const laserX = parseFloat(document.getElementById('laserInputX').value);
+            const laserY = parseFloat(document.getElementById('laserInputY').value);
+            const result = findNearestPixel(laserX, laserY);
+            if (result) {
+                showPixel('result', result.data);
+                document.getElementById('resultDistance').textContent = result.distance.toFixed(3);
+                document.getElementById('resultBox').style.display = 'block';
+                selectedPixel = result.data;
+                drawCanvas();
+            }
+        });
+
+        offsetXInput.addEventListener('change', updateOffset);
+        offsetYInput.addEventListener('change', updateOffset);
+
+        function highlightChannel() {
+            const block = document.getElementById('blockSelect').value;
+            const slot = document.getElementById('slotSelect').value;
+            const channel = parseInt(document.getElementById('channelInput').value);
+            highlightedPixels = Object.values(channels).filter((d) =>
+                d.channel === channel &&
+                (block === '' || d.block === parseInt(block)) &&
+                (slot === '' || d.slot === parseInt(slot)));
+            drawCanvas();
+        }
+
+        document.getElementById('highlightBtn').addEventListener('click', highlightChannel);
+
+        function setScanRegion() {
+            const xMin = parseFloat(document.getElementById('scanXMin').value);
+            const yMin = parseFloat(document.getElementById('scanYMin').value);
+            const xDist = parseFloat(document.getElementById('scanXDist').value);
+            const yDist = parseFloat(document.getElementById('scanYDist').value);
+            scanRegion = {xMin: xMin, yMin: yMin, xMax: xMin + xDist, yMax: yMin + yDist};
+            drawCanvas();
+        }
+
+        document.getElementById('setScanBtn').addEventListener('click', setScanRegion);
+
+        loadData();
+        </script>
+    </body>
+</html>
